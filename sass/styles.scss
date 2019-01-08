@@ -60,6 +60,9 @@ img {
   max-width: 100%;
 }
 
+.sticky {
+  position: fixed;
+}
 
 // HEADER + TOP
 
@@ -71,6 +74,10 @@ img {
   @media #{$m-xxs} {
     background: $main_color;
     padding-bottom: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
     .logo {
       display: none;
     }
@@ -106,6 +113,8 @@ img {
     padding-top: 20px;
     text-align: center;
     color: #ffffff;
+    margin-top: 60px;
+    overflow: hidden;
     h1 {
       font-size: 25px;
       color: #ffffff;

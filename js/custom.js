@@ -84,15 +84,25 @@ $(document).ready(function() {
     });
 
     // SCROLL TOP NOTE ON MOBILE
-
+/*
     var screen = $(window);
     if (screen.width() < 575) {
         $(window).on('scroll', function() {
-            if ($(this).scrollTop() > 30) {
-                $('#top').slideUp(500);
+            //h = $('header').outerHeight();
+            console.log($(this).scrollTop());
+            if ($(this).scrollTop() > 50) {
+                $('#top').stop();
+                $('#top').animate({
+                    height: 85,
+                }, 800);
             } else {
-                $('#top').slideDown(500);
+                $('#top').stop();
+                $('#top').animate({
+                    height: "toggle"
+                }, 800);
             }
         });
     }
+    */
+
 });
