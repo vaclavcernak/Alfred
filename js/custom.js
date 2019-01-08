@@ -98,7 +98,16 @@ $(document).ready(function() {
                     $('.top_claim').css("position","absolute");
                 });
             }
+            /*
+            if ($(this).scrollTop() > 60) {
+                $('.header').css("position","fixed");
+                $('.top').css("margin-top","35px");
+            } else {
+                $('.top').css("margin-top","0px");
+            }
+            */
         });
+
     }
 
 
