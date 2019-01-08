@@ -84,25 +84,25 @@ $(document).ready(function() {
     });
 
     // SCROLL TOP NOTE ON MOBILE
-/*
+
     var screen = $(window);
     if (screen.width() < 575) {
+        h = $('#top').outerHeight();
         $(window).on('scroll', function() {
-            //h = $('header').outerHeight();
             console.log($(this).scrollTop());
-            if ($(this).scrollTop() > 85) {
-                $('#top').stop();
-                $('#top').animate({
-                    height: 85,
-                }, 200);
+            if ($(this).scrollTop() > h) {
+                $('.top_claim').animate({
+                    top: -h,
+                }, 100 ,function () {
+                    $('.top_claim').css("position","absolute");
+                });
+                //$('.top_nav').css("position","fixed");
+                //$('.top_nav').css("top","70");
+                //$('.content').css("margin-top","60");
             } else {
-                $('#top').stop();
-                $('#top').animate({
-                    height: "toggle"
-                }, 200);
             }
         });
     }
-*/
+
 
 });
