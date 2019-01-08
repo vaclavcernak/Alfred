@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="378px" height="146px" viewBox="0 0 378 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>hotelaokoli-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-V5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---informace-o-hotelu---V5" transform="translate(-719.000000, -1378.000000)">
+            <g id="hotelaokoli-icon" transform="translate(720.000000, 1378.000000)">
+                <g id="Group-13" transform="translate(65.000000, 0.000000)">
+                    <g id="Group-12" transform="translate(17.000000, 0.000000)" stroke="#663366" stroke-width="2">
+                        <g id="Group-6" transform="translate(0.000000, 16.000000)" fill="#FFFFFF">
+                            <rect id="Rectangle-Copy-21" x="7" y="35" width="55" height="94" rx="2"></rect>
+                            <path d="M62,1 L55.1165582,1 C53.9027803,1 52.7098603,1.31561057 51.6548884,1.91585318 L2.06491833,30.1308362 C1.75243534,30.3086282 1.55944257,30.6404786 1.55944257,31 C1.55944257,31.5522847 2.00715782,32 2.55944257,32 L61,32 C61.5522847,32 62,31.5522847 62,31 L62,1 Z" id="Rectangle-Copy-30"></path>
+                            <rect id="Rectangle-Copy-29" x="15" y="97" width="14" height="4" rx="2"></rect>
+                            <rect id="Rectangle-Copy-28" x="35" y="97" width="14" height="4" rx="2"></rect>
+                            <g id="Group-3" transform="translate(14.000000, 46.000000)">
+                                <rect id="Rectangle" x="2" y="5" width="12" height="9" rx="2"></rect>
+                                <rect id="Rectangle-Copy-29" x="1" y="1" width="14" height="4" rx="2"></rect>
+                                <rect id="Rectangle-Copy-9" x="2" y="14" width="12" height="9" rx="2"></rect>
+                            </g>
+                            <g id="Group-3-Copy-4" transform="translate(34.000000, 46.000000)">
+                                <rect id="Rectangle" x="2" y="5" width="12" height="9" rx="2"></rect>
+                                <rect id="Rectangle-Copy-28" x="1" y="1" width="14" height="4" rx="2"></rect>
+                                <rect id="Rectangle-Copy-9" x="2" y="14" width="12" height="9" rx="2"></rect>
+                            </g>
+                            <g id="Group-3-Copy-6" transform="translate(15.000000, 100.000000)">
+                                <rect id="Rectangle" x="1" y="1" width="12" height="9" rx="2"></rect>
+                                <rect id="Rectangle-Copy-9" x="1" y="10" width="12" height="9" rx="2"></rect>
+                            </g>
+                            <g id="Group-3-Copy-5" transform="translate(35.000000, 100.000000)">
+                                <rect id="Rectangle" x="1" y="1" width="12" height="9" rx="2"></rect>
+                                <rect id="Rectangle-Copy-9" x="1" y="10" width="12" height="9" rx="2"></rect>
+                            </g>
+                            <rect id="Rectangle-Copy-25" x="4" y="32" width="58" height="4" rx="2"></rect>
+                            <rect id="Rectangle-Copy-27" x="4" y="82" width="58" height="4" rx="2"></rect>
+                        </g>
+                        <g id="Group-10" transform="translate(57.000000, 0.000000)">
+                            <rect id="Rectangle" fill="#FFFFFF" x="5" y="33" width="84" height="112" rx="2"></rect>
+                            <rect id="Rectangle" x="21" y="141" width="14" height="4" rx="2"></rect>
+                            <rect id="Rectangle-Copy" x="59" y="141" width="14" height="4" rx="2"></rect>
+                            <rect id="Rectangle-Copy-10" x="38" y="141" width="18" height="4" rx="2"></rect>
+                            <path d="M40,117 L40,140 C40,140.552285 40.4477153,141 41,141 L53,141 C53.5522847,141 54,140.552285 54,140 L54,117 L40,117 Z" id="Rectangle-Copy-11"></path>
+                            <rect id="Rectangle-Copy-26" x="43" y="120" width="8" height="16" rx="2"></rect>
+                            <path d="M40.1000181,113 L45,113 L45,109 C42.5810421,109 40.5632884,110.71776 40.1000181,113 Z" id="Rectangle-Copy-12"></path>
+                            <path d="M49,109 L49,113 L53.8999819,113 C53.4367116,110.71776 51.4189579,109 49,109 Z" id="Rectangle-Copy-13"></path>
+                            <rect id="Rectangle-Copy-3" x="21" y="101" width="14" height="4" rx="2"></rect>
+                            <rect id="Rectangle-Copy-2" x="59" y="101" width="14" height="4" rx="2"></rect>
+                            <rect id="Rectangle-Copy-5" x="23" y="105" width="10" height="36" rx="2"></rect>
+                            <rect id="Rectangle-Copy-6" x="18" y="94" width="58" height="7" rx="2"></rect>
+                            <path d="M46.6753482,82.0575818 L17.6322742,92.0544467 C17.2286718,92.19337 16.9577415,92.5731574 16.9577415,93 C16.9577415,93.5522847 17.4054567,94 17.9577415,94 L75.3929549,94 C75.8197974,94 76.1995849,93.7290697 76.3385082,93.3254672 C76.5182588,92.8032525 76.2406368,92.2341973 75.7184221,92.0544467 L46.6753482,82.0575818 Z" id="Rectangle-Copy-7"></path>
+                            <rect id="Rectangle-Copy-4" x="61" y="105" width="10" height="36" rx="2"></rect>
+                            <rect id="Rectangle" fill="#FFFFFF" x="1" y="71" width="92" height="4" rx="2"></rect>
+                            <rect id="Rectangle-Copy-8" fill="#FFFFFF" x="1" y="38" width="92" height="4" rx="2"></rect>
+                            <rect id="Rectangle-Copy-14" fill="#FFFFFF" x="1" y="29" width="52" height="4" rx="2"></rect>
+                            <rect id="Rectangle-Copy-16" fill="#FFFFFF" x="3" y="9" width="37" height="20" rx="3"></rect>
+                            <rect id="Rectangle-Copy-17" fill="#FFFFFF" x="40" y="17" width="9" height="12" rx="3"></rect>
+                            <g id="Group-5" transform="translate(58.000000, 0.000000)">
+                                <rect id="Rectangle-Copy-15" fill="#FFFFFF" x="6" y="9" width="17" height="18" rx="3"></rect>
+                                <path d="M15.067733,1.60629272 C14.7259443,1.37057644 14.2740557,1.37057644 13.932267,1.60629272 L5.85505003,7.17678721 C5.5843944,7.36344628 5.42278299,7.67122032 5.42278299,8 C5.42278299,8.55228475 5.87049824,9 6.42278299,9 L22.577217,9 C22.9059967,9 23.2137707,8.8383886 23.4004298,8.56773296 C23.71398,8.11308509 23.5995978,7.49033747 23.14495,7.17678721 L15.067733,1.60629272 Z" id="Rectangle-Copy-20" fill="#FFFFFF"></path>
+                                <g id="Group-4" transform="translate(10.000000, 27.000000)" stroke-linecap="round">
+                                    <path d="M0.96091294,5.1739345 L3.05233389,0.612780953" id="Path-2"></path>
+                                    <path d="M6.96091294,5.1739345 L9.05233389,0.612780953" id="Path-2-Copy" transform="translate(8.006623, 2.893358) scale(-1, 1) translate(-8.006623, -2.893358) "></path>
+                                </g>
+                            </g>
+                            <g id="Group-3" transform="translate(10.000000, 47.000000)" fill="#FFFFFF">
+                                <rect id="Rectangle" x="1" y="1" width="12" height="9" rx="2"></rect>
+                                <rect id="Rectangle-Copy-9" x="1" y="10" width="12" height="9" rx="2"></rect>
+                            </g>
+                            <g id="Group-3-Copy" transform="translate(30.000000, 47.000000)" fill="#FFFFFF">
+                                <rect id="Rectangle" x="1" y="1" width="12" height="9" rx="2"></rect>
+                                <rect id="Rectangle-Copy-9" x="1" y="10" width="12" height="9" rx="2"></rect>
+                            </g>
+                            <g id="Group-3-Copy-2" transform="translate(50.000000, 47.000000)" fill="#FFFFFF">
+                                <rect id="Rectangle" x="1" y="1" width="12" height="9" rx="2"></rect>
+                                <rect id="Rectangle-Copy-9" x="1" y="10" width="12" height="9" rx="2"></rect>
+                            </g>
+                            <g id="Group-3-Copy-3" transform="translate(70.000000, 47.000000)" fill="#FFFFFF">
+                                <rect id="Rectangle" x="1" y="1" width="12" height="9" rx="2"></rect>
+                                <rect id="Rectangle-Copy-9" x="1" y="10" width="12" height="9" rx="2"></rect>
+                            </g>
+                            <rect id="Rectangle" fill="#FFFFFF" x="9" y="15" width="5" height="8" rx="2"></rect>
+                            <rect id="Rectangle-Copy-18" fill="#FFFFFF" x="19" y="15" width="5" height="8" rx="2"></rect>
+                            <rect id="Rectangle-Copy-19" fill="#FFFFFF" x="29" y="15" width="5" height="8" rx="2"></rect>
+                            <rect id="Rectangle" fill="#FFFFFF" x="77" y="109" width="6" height="25" rx="2"></rect>
+                            <rect id="Rectangle-Copy-23" fill="#FFFFFF" x="77" y="117" width="6" height="9" rx="2"></rect>
+                            <rect id="Rectangle-Copy-22" fill="#FFFFFF" x="11" y="109" width="6" height="25" rx="2"></rect>
+                            <rect id="Rectangle-Copy-24" fill="#FFFFFF" x="11" y="117" width="6" height="9" rx="2"></rect>
+                        </g>
+                    </g>
+                    <rect id="Rectangle" fill="#663366" x="158" y="144" width="20" height="2" rx="1"></rect>
+                    <rect id="Rectangle-Copy-32" fill="#663366" x="189" y="144" width="13" height="2" rx="1"></rect>
+                    <rect id="Rectangle-Copy-33" fill="#663366" x="0" y="144" width="21" height="2" rx="1"></rect>
+                    <rect id="Rectangle-Copy-31" fill="#663366" x="181" y="144" width="5" height="2" rx="1"></rect>
+                </g>
+                <path d="M0.359375,61.9107689 L18.8984375,61.9107689 C20.003007,61.9107689 20.8984375,62.8061994 20.8984375,63.9107689 L20.8984375,96.4804688 C20.8984375,97.5850382 21.793868,98.4804688 22.8984375,98.4804688 L28.2617188,98.4804688 C29.3662882,98.4804688 30.2617187,97.5850382 30.2617188,96.4804688 L30.2617187,80.6720608 C30.2617187,79.5674913 31.1571493,78.6720608 32.2617188,78.6720608 L88.9453125,78.6720608" id="Path-5" stroke="#663366" stroke-width="2" opacity="0.2" stroke-linecap="round"></path>
+                <path d="M228.84375,79.4736667 L244.425781,79.4736667 C245.530351,79.4736667 246.425781,80.3690972 246.425781,81.4736667 L246.425781,89.2890625 C246.425781,90.393632 247.321212,91.2890625 248.425781,91.2890625 L257.972656,91.2890625 C259.077226,91.2890625 259.972656,92.184493 259.972656,93.2890625 L259.972656,116.75 C259.972656,117.854569 260.868087,118.75 261.972656,118.75 L267.734375,118.75 C268.838944,118.75 269.734375,117.854569 269.734375,116.75 L269.734375,29.4257812 C269.734375,28.3212118 270.629806,27.4257812 271.734375,27.4257812 L275.113281,27.4257812 C276.217851,27.4257812 277.113281,26.5303507 277.113281,25.4257812 L277.113281,21.4550781 C277.113281,18.4423217 279.555603,16 282.568359,16 L286.023438,16 C287.128007,16 288.023438,15.1045695 288.023438,14 L288.023438,8.0625 C288.023438,5.853361 289.814299,4.0625 292.023438,4.0625 L311.925781,4.0625 C314.13492,4.0625 315.925781,5.853361 315.925781,8.0625 L315.925781,14 C315.925781,15.1045695 316.821212,16 317.925781,16 L321.484375,16 C324.554302,16 327.042969,18.4886672 327.042969,21.5585937 L327.042969,25.4257812 C327.042969,26.5303507 327.938399,27.4257812 329.042969,27.4257812 L358.410156,27.4257812 C359.514726,27.4257812 360.410156,28.3212118 360.410156,29.4257812 L360.410156,59.8431386 C360.410156,60.9477081 361.305587,61.8431386 362.410156,61.8431386 C362.432323,61.8431386 362.454489,61.8427701 362.476644,61.8420331 L375.578125,61.40625" id="Path-6" stroke="#663366" stroke-width="2" opacity="0.2" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

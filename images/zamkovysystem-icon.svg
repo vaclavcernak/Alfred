@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="145px" height="146px" viewBox="0 0 145 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>zamkovysystem-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="45" width="54" height="97" rx="6"></rect>
+    </defs>
+    <g id="Page-V5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop--zamkovy-system---V5" transform="translate(-723.000000, -1328.000000)">
+            <g id="zamkovysystem-icon" transform="translate(726.000000, 1328.000000)">
+                <g id="Group-20" transform="translate(0.778756, 0.335696)">
+                    <path d="M125.221244,5 L125.221244,116 L136,116 C138.164702,116 140,113.797642 140,111 L140,10 C140,7.20235808 138.164702,5 136,5 L125.221244,5 Z" id="Path-Copy-2" stroke="#663366" stroke-width="2" fill="#663366"></path>
+                    <path d="M126.221244,1 L126.221244,116 C127.280077,116 127.571931,116 129,116 C131.164702,116 133,113.797642 133,111 L133,6 C133,3.20235808 131.164702,1 129,1 C127.34173,1 126.762888,1 126.221243,1 Z" id="Path" stroke="#663366" stroke-width="2" fill="#FFFFFF"></path>
+                    <path d="M125.058034,1.00052795 L85.1240347,5.99227788 L85,6 C82.8352984,6 81,8.20235808 81,11 L81,111 C81,113.797642 82.8352984,116 85,116 L125,116 C127.164702,116 129,113.797642 129,111 L129,6 C129,3.22739359 127.197402,1.03946455 125.058034,1.00052795 Z" id="Path-Copy" stroke="#663366" stroke-width="2" fill="#FFFFFF"></path>
+                    <path d="M75.9349564,68.1247928 C85.6807039,62.3891439 92.2212444,51.7905363 92.2212444,39.6643036 C92.2212444,28.3128703 86.489811,18.3000849 77.7629291,12.3619325 C72.4782866,8.76603047 71.0331115,71.0096676 75.9349564,68.1247928 Z" id="Oval" fill="#FFFFFF"></path>
+                    <rect id="Rectangle-Copy-33" fill="#663366" opacity="0.2" x="62.2212444" y="123.664304" width="51" height="2" rx="1"></rect>
+                    <rect id="Rectangle-Copy-31" fill="#663366" x="113" y="61" width="10" height="2" rx="1"></rect>
+                    <g id="Rectangle">
+                        <rect stroke="#663366" stroke-width="2" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="1" y="46" width="52" height="95" rx="6"></rect>
+                        <rect stroke="#FFFFFF" stroke-width="3" x="-1.5" y="43.5" width="57" height="100" rx="6"></rect>
+                    </g>
+                    <path d="M22.9894622,91.0592349 C20.0317362,89.5845249 18,86.5295311 18,83 C18,78.0294373 22.0294373,74 27,74 C31.9705627,74 36,78.0294373 36,83 C36,86.5358816 33.9659469,89.587572 30.9995647,91.0592349 L31,98 C31,100.209139 29.209139,102 27,102 C24.790861,102 23,100.209139 23,98 L22.9894622,91.0592349 Z" id="Path" stroke="#663366" stroke-width="2"></path>
+                    <rect id="Rectangle" stroke="#663366" stroke-width="2" x="6" y="61" width="42" height="66" rx="2"></rect>
+                    <rect id="Rectangle-Copy-41" stroke="#663366" stroke-width="2" x="11" y="114" width="32" height="8" rx="3"></rect>
+                    <rect id="Rectangle-Copy-41" stroke="#663366" stroke-width="2" x="25" y="132" width="4" height="4" rx="2"></rect>
+                    <rect id="Rectangle-Copy-31" fill="#663366" x="22" y="53" width="10" height="2" rx="1"></rect>
+                </g>
+                <polyline id="Path-7" stroke="#663366" stroke-width="2" stroke-linecap="round" points="55 39.8461538 59.1052632 44 68 35"></polyline>
+                <path d="M79.9416327,41.0200155 C79.9803052,40.5184216 80,40.0115108 80,39.5 C80,28.7304474 71.2695526,20 60.5,20 C49.7304474,20 41,28.7304474 41,39.5 C41,50.2695526 49.7304474,59 60.5,59 C61.0015181,59 61.4986142,58.9810672 61.9906126,58.9438774" id="Path" stroke="#663366" stroke-width="2" opacity="0.196172805" stroke-linecap="round" transform="translate(60.500000, 39.500000) rotate(90.000000) translate(-60.500000, -39.500000) "></path>
+                <path d="M88.9623921,40.9769052 C88.9873624,40.4877583 89,39.995355 89,39.5 C89,23.7598846 76.2401154,11 60.5,11 C44.7598846,11 32,23.7598846 32,39.5 C32,55.2401154 44.7598846,68 60.5,68 C61.0326856,68 61.5619578,67.9853859 62.0874377,67.9565367" id="Path" stroke="#663366" stroke-width="2" opacity="0.196172805" stroke-linecap="round" transform="translate(60.500000, 39.500000) rotate(90.000000) translate(-60.500000, -39.500000) "></path>
+                <circle id="Oval" fill="#663366" cx="122.5" cy="63.5" r="2.5"></circle>
+                <path d="M117.096569,66 L117.096569,72.9527679 C117.096569,73.5050526 117.544284,73.9527679 118.096569,73.9527679 L121.259542,73.9527679 C121.811827,73.9527679 122.259542,73.5050526 122.259542,72.9527679 L122.259542,68.249798" id="Path-11" stroke="#663366" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M117.096569,53 L117.096569,57.9527679 C117.096569,58.5050526 117.544284,58.9527679 118.096569,58.9527679 L121.259542,58.9527679 C121.811827,58.9527679 122.259542,58.5050526 122.259542,57.9527679 L122.259542,53.249798" id="Path-11-Copy" stroke="#663366" stroke-width="2" stroke-linecap="round" transform="translate(119.678055, 55.976384) scale(1, -1) translate(-119.678055, -55.976384) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
