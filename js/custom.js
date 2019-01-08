@@ -87,19 +87,16 @@ $(document).ready(function() {
 
     var screen = $(window);
     if (screen.width() < 575) {
-        h = $('#top').outerHeight();
+        h_top = $('#top').outerHeight();
+        h_nav = $('.top_nav').outerHeight();
+        var h = h_top + h_nav;
         $(window).on('scroll', function() {
-            console.log($(this).scrollTop());
             if ($(this).scrollTop() > h) {
                 $('.top_claim').animate({
                     top: -h,
                 }, 100 ,function () {
                     $('.top_claim').css("position","absolute");
                 });
-                //$('.top_nav').css("position","fixed");
-                //$('.top_nav').css("top","70");
-                //$('.content').css("margin-top","60");
-            } else {
             }
         });
     }
