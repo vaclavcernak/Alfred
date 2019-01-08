@@ -90,19 +90,19 @@ $(document).ready(function() {
         $(window).on('scroll', function() {
             //h = $('header').outerHeight();
             console.log($(this).scrollTop());
-            if ($(this).scrollTop() > 50) {
+            if ($(this).scrollTop() > 85) {
                 $('#top').stop();
                 $('#top').animate({
                     height: 85,
-                }, 800);
+                }, 200);
             } else {
                 $('#top').stop();
                 $('#top').animate({
                     height: "toggle"
-                }, 800);
+                }, 200);
             }
         });
     }
-    */
+*/
 
 });
