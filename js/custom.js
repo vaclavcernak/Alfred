@@ -88,7 +88,7 @@ $(document).ready(function() {
     var screen = $(window);
     if (screen.width() < 575) {
         $(window).on('scroll', function() {
-            if ($(this).scrollTop() > 60) {
+            if ($(this).scrollTop() > 30) {
                 $('#top').slideUp(500);
             } else {
                 $('#top').slideDown(500);
