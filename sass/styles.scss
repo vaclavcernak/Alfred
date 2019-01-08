@@ -10,6 +10,9 @@
 // Lightslider
 @import "lightslider";
 
+// Animate CSS
+@import "animate";
+
 /*** Custom CSS ***/
 
 // Define media query properties
@@ -62,6 +65,22 @@ img {
 
 .sticky {
   position: fixed;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 // HEADER + TOP
@@ -132,6 +151,7 @@ img {
   }
   @media #{$m-xxs} {
     margin-top: 20px;
+    animation-duration: 0s;
   }
   .top_claim_text {
     font-size: 29px;
@@ -480,6 +500,27 @@ img {
       max-height: 15px;
       margin-left: 0;
     }
+  }
+}
+
+
+/*** SUB PAGES ***/
+
+.content-subpage {
+  margin-top: 150px;
+  color: #686868;
+  h1 {
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 29px;
+    font-weight: $semibold;
+    color: $main_color;
+    margin-bottom: 15px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 24px;
   }
 }
 
