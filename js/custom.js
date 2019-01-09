@@ -90,6 +90,7 @@ $(document).ready(function() {
         // Google + iOS APP banner
         $.smartbanner({
             title: 'Můj Alfred',
+            author: 'PREVIO s.r.o.',
             icon: 'images/alfred-app.jpg',
             button: 'Otevřít',
             price: 'Zdarma', // Price of the app
