@@ -14161,7 +14161,7 @@ img {
 /* line 130, ../sass/styles.scss */
 .top {
   padding-top: 150px;
-  background: url("../images/top.png") no-repeat right top;
+  background: url("../images/top.jpg") no-repeat right top;
 }
 @media (min-width: 1200px) and (max-width: 1600px) {
   /* line 130, ../sass/styles.scss */
