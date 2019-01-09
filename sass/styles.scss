@@ -106,7 +106,7 @@ img {
   @media #{$m-xxs} {
     background: $main_color;
     padding-bottom: 10px;
-    position: fixed;
+    //position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
@@ -146,7 +146,7 @@ img {
     padding-top: 20px;
     text-align: center;
     color: #ffffff;
-    margin-top: 35px;
+    //margin-top: 35px;
     overflow: hidden;
     h1 {
       font-size: 25px;

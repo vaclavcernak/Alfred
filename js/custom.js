@@ -87,28 +87,28 @@ $(document).ready(function() {
 
     var screen = $(window);
     if (screen.width() < 575) {
-        h_top = $('#top').outerHeight();
-        h_nav = $('.top_nav').outerHeight();
-        var h = h_top + h_nav;
         $(window).on('scroll', function() {
-            if ($(this).scrollTop() > h) {
-                $('.top_claim').animate({
+            if ($(this).scrollTop() > 80) {
+                $('.top_claim').slideUp(1000);
+                $('#top').css("padding-top","0");
+               /* $('.top_claim').animate({
                     top: -h,
-                }, 100 ,function () {
-                    $('.top_claim').css("position","absolute");
+                }, 1000 ,function () {
+                    //$('.top_claim').css("position","absolute");
+                    $('#top').css("padding-top","0");
                 });
+                */
             }
-            /*
+/*
             if ($(this).scrollTop() > 60) {
                 $('.header').css("position","fixed");
                 $('.top').css("margin-top","35px");
             } else {
-                $('.top').css("margin-top","0px");
+                $('.top').css("margin-top","55px");
             }
-            */
+*/
         });
 
     }
-
 
 });
