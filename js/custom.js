@@ -92,7 +92,10 @@ $(document).ready(function() {
             title: 'Můj Alfred',
             icon: 'images/alfred-app.jpg',
             button: 'Otevřít',
-            appStoreLanguage: 'cz',
+            price: 'Zdarma', // Price of the app
+            appStoreLanguage: 'cz', // Language code for App Store
+            inAppStore: 'Na App Store', // Text of price for iOS
+            inGooglePlay: 'Na Google Play', // Text of price for Android
             daysHidden: 0,
             daysReminder: 0,
         });
