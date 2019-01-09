@@ -608,10 +608,6 @@ html.sb-animation {
     text-align: center;
     color: $main_color;
     text-decoration: none;
-    &:active {
-      font-size: 13px;
-      color: #aaa;
-    }
   }
   .sb-icon {
     position: absolute;
@@ -621,7 +617,8 @@ html.sb-animation {
     width: 45px;
     height: 45px;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
   }
   &.no-icon .sb-icon {
     display: none;
