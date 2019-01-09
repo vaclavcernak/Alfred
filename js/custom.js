@@ -87,6 +87,13 @@ $(document).ready(function() {
 
     var screen = $(window);
     if (screen.width() < 575) {
+        $.smartbanner({
+            title: 'Můj Alfred',
+            icon: 'https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/a7/56/ff/a756ff07-f32f-c706-9d41-50148362a499/AppIcon-0-1x_U007emarketing-0-0-85-220-6.jpeg/400x400bb.jpg',
+            button: 'Otevřít',
+            daysHidden: 0,
+            daysReminder: 0,
+        });
         $(window).on('scroll', function() {
             if ($(this).scrollTop() > 80) {
                 $('.top_claim').slideUp(1000);

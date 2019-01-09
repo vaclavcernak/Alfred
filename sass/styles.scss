@@ -558,6 +558,10 @@ img {
 /******* MEDIA QUERIES ******/
 
 @media #{$m-xxs} {
+
+  .image-wrap {
+    margin: 0 -25px;
+  }
   .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -575,14 +579,8 @@ img {
   position: absolute;
   left: 0;
   top: -82px;
-  border-bottom: 1px solid #e8e8e8;
   width: 100%;
-  height: 78px;
-  font-family: 'Helvetica Neue',sans-serif;
-  background: -webkit-linear-gradient(top, #f4f4f4 0%, #cdcdcd 100%);
-  background-image: -ms-linear-gradient(top, #F4F4F4 0%, #CDCDCD 100%);
-  background-image: -moz-linear-gradient(top, #F4F4F4 0%, #CDCDCD 100%);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  height: 65px;
   z-index: 9998;
   -webkit-font-smoothing: antialiased;
   overflow: hidden;
@@ -601,22 +599,15 @@ html.sb-animation {
   .sb-close {
     position: absolute;
     left: 5px;
-    top: 5px;
+    top: 23px;
     display: block;
-    border: 2px solid #fff;
-    width: 14px;
-    height: 14px;
-    font-family: 'ArialRoundedMTBold',Arial;
-    font-size: 15px;
-    line-height: 15px;
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+    line-height: 20px;
     text-align: center;
-    color: #fff;
-    background: #070707;
+    color: $main_color;
     text-decoration: none;
-    text-shadow: none;
-    border-radius: 14px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
-    -webkit-font-smoothing: subpixel-antialiased;
     &:active {
       font-size: 13px;
       color: #aaa;
@@ -627,19 +618,17 @@ html.sb-animation {
     left: 30px;
     top: 10px;
     display: block;
-    width: 57px;
-    height: 57px;
-    background: rgba(0, 0, 0, 0.6);
+    width: 45px;
+    height: 45px;
     background-size: cover;
-    border-radius: 10px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
   }
   &.no-icon .sb-icon {
     display: none;
   }
   .sb-info {
     position: absolute;
-    left: 98px;
+    left: 85px;
     top: 18px;
     width: 44%;
     font-size: 11px;
@@ -654,12 +643,14 @@ html.sb-animation {
   .sb-info {
     strong {
       display: block;
-      font-size: 13px;
-      color: #4d4d4d;
-      line-height: 18px;
+      font-size: 12px;
+      color: #444444;
+      font-weight: normal;
+      margin-bottom: 2px;
     }
     > span {
       display: block;
+      font-size: 11px;
     }
     em {
       font-style: normal;
@@ -668,26 +659,9 @@ html.sb-animation {
   }
   .sb-button {
     position: absolute;
-    right: 20px;
-    top: 24px;
-    border: 1px solid #bfbfbf;
-    padding: 0 10px;
-    min-width: 10%;
-    height: 24px;
-    font-size: 14px;
-    line-height: 24px;
-    text-align: center;
-    font-weight: bold;
-    color: #6a6a6a;
-    background: -webkit-linear-gradient(top, #efefef 0%, #dcdcdc 100%);
-    text-transform: uppercase;
     text-decoration: none;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-    border-radius: 3px;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6), 0 1px 0 rgba(255, 255, 255, 0.7) inset;
-    &:active, &:hover {
-      background: -webkit-linear-gradient(top, #dcdcdc 0%, #efefef 100%);
-    }
+    right: 10px;
+    top: 20px;
   }
   .sb-icon.gloss:after {
     content: '';
@@ -702,54 +676,15 @@ html.sb-animation {
   }
   &.android {
     border-color: #212228;
-    background: #3d3d3d url('data:image/gif;base64,R0lGODlhCAAIAIABAFVVVf///yH5BAEHAAEALAAAAAAIAAgAAAINRG4XudroGJBRsYcxKAA7');
-    border-top: 5px solid #88B131;
+    background: #ffffff;
     box-shadow: none;
-    .sb-close {
-      border: 0;
-      width: 17px;
-      height: 17px;
-      line-height: 17px;
-      color: #b1b1b3;
-      background: #1c1e21;
-      text-shadow: 0 1px 1px #000;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.8) inset, 0 1px 1px rgba(255, 255, 255, 0.3);
-      &:active {
-        color: #eee;
-      }
-    }
-    .sb-info {
-      color: #ccc;
-      text-shadow: 0 1px 2px #000;
-      strong {
-        color: #fff;
-      }
-    }
     .sb-button {
-      min-width: 12%;
-      border: 1px solid #DDDCDC;
-      padding: 1px;
-      color: #d1d1d1;
-      background: none;
-      border-radius: 0;
-      box-shadow: none;
-      min-height: 28px;
       span {
         text-align: center;
+        font-weight: $semibold;
         display: block;
-        padding: 0 10px;
-        background-color: #42B6C9;
-        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#42B6C9), to(#39A9BB));
-        background-image: -moz-linear-gradient(top, #42B6C9, #39A9BB);
-        text-transform: none;
-        text-shadow: none;
-        box-shadow: none;
-      }
-      &:active, &:hover {
-        background: none;
-      }
-      &:active span, &:hover span {
-        background: #2AC7E1;
+        color: #1C49B0;
+        font-size: 15px;
       }
     }
   }
