@@ -6,9 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb606ac9-bf5a-443e-a7f0-2f80e2fdbc74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookies.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osobni-udaje.html" beforeDir="false" afterPath="$PROJECT_DIR$/osobni-udaje.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,11 +116,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+            <state relative-caret-position="164">
+              <caret line="171" column="87" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -134,7 +134,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="383">
@@ -146,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="89" />
+            <state relative-caret-position="217">
+              <caret line="80" column="87" selection-start-line="80" selection-start-column="87" selection-end-line="80" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -155,8 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/osobni-udaje.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="73" column="89" selection-start-line="73" selection-start-column="89" selection-end-line="73" selection-end-column="89" />
+            <state relative-caret-position="217">
+              <caret line="79" column="87" selection-start-line="79" selection-start-column="87" selection-end-line="79" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -202,8 +202,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sass</find>
-      <find>abs</find>
       <find>lightSlider</find>
       <find>content_item</find>
       <find>PAger</find>
@@ -230,8 +228,10 @@
       <find>Fre</find>
       <find>fixed</find>
       <find>top.j</find>
-      <find>transi</find>
       <find>top.</find>
+      <find>transi</find>
+      <find>app</find>
+      <find>apple</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -245,12 +245,12 @@
         <option value="$PROJECT_DIR$/css/lightslider.css" />
         <option value="$PROJECT_DIR$/sass/_lightslider.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/cookies.html" />
-        <option value="$PROJECT_DIR$/osobni-udaje.html" />
         <option value="$PROJECT_DIR$/config.rb" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/sass/styles.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/cookies.html" />
+        <option value="$PROJECT_DIR$/osobni-udaje.html" />
       </list>
     </option>
   </component>
@@ -356,12 +356,12 @@
       <workItem from="1546413399983" duration="590000" />
       <workItem from="1546499341892" duration="54821000" />
       <workItem from="1546936344995" duration="9212000" />
-      <workItem from="1546945676881" duration="17709000" />
+      <workItem from="1546945676881" duration="17833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90200000" />
+    <option name="totallyTimeSpent" value="90324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1983" y="62" width="1755" height="919" extended-state="0" />
@@ -521,27 +521,6 @@
     <entry file="file://$PROJECT_DIR$/sass/_customFonts.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/osobni-udaje.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="73" column="89" selection-start-line="73" selection-start-column="89" selection-end-line="73" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.smartbanner.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -560,6 +539,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="645" column="8" selection-start-line="645" selection-start-column="8" selection-end-line="645" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/osobni-udaje.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="79" column="87" selection-start-line="79" selection-start-column="87" selection-end-line="79" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="80" column="87" selection-start-line="80" selection-start-column="87" selection-end-line="80" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="171" column="87" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="87" />
         </state>
       </provider>
     </entry>
