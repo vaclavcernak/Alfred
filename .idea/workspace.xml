@@ -6,8 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb606ac9-bf5a-443e-a7f0-2f80e2fdbc74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,15 +83,16 @@
           <entry key="gitignore" value="14" />
           <entry key="html" value="591" />
           <entry key="js" value="1016" />
-          <entry key="scss" value="624" />
+          <entry key="rb" value="2" />
+          <entry key="scss" value="626" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="591" />
           <entry key="JavaScript" value="1016" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="SCSS" value="624" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="SCSS" value="626" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -132,7 +133,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="122">
@@ -180,9 +181,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -224,6 +229,7 @@
       <find>Fre</find>
       <find>fixed</find>
       <find>top.</find>
+      <find>top.j</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -242,6 +248,7 @@
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/styles.scss" />
+        <option value="$PROJECT_DIR$/config.rb" />
       </list>
     </option>
   </component>
@@ -348,12 +355,12 @@
       <workItem from="1546413399983" duration="590000" />
       <workItem from="1546499341892" duration="54821000" />
       <workItem from="1546936344995" duration="9212000" />
-      <workItem from="1546945676881" duration="14680000" />
+      <workItem from="1546945676881" duration="14976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87171000" />
+    <option name="totallyTimeSpent" value="87467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1983" y="62" width="1755" height="919" extended-state="0" />
@@ -482,9 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_animate.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -548,6 +552,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
