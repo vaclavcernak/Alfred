@@ -23,7 +23,7 @@ $(document).ready(function() {
             switch (i) {
                 case 1:
                     $(menu).animate({
-                        left: 0,
+                        left: 60+((wW-mW)/2)
                     }, 300);
                     break;
                 case 2:
@@ -89,6 +89,11 @@ $(document).ready(function() {
 
     var screen = $(window);
     if (screen.width() < 575) {
+        // MOBILE MENU INIT POSITION
+        var wW= $(window).width();
+        var mW= 320;
+        $(menu).css("left", 60+((wW-mW)/2));
+
         // Google + iOS APP banner
         $.smartbanner({
             title: 'Můj Alfred',
@@ -105,25 +110,12 @@ $(document).ready(function() {
 
         // SCROLL TOP NOTE ON MOBILE
         $(window).on('scroll', function() {
-            if ($(this).scrollTop() > 80) {
+            if ($(this).scrollTop() > 0) {
                 $('.top_claim').slideUp(1000);
-                $('#top').css("padding-top","0");
-               /* $('.top_claim').animate({
-                    top: -h,
-                }, 1000 ,function () {
-                    //$('.top_claim').css("position","absolute");
-                    $('#top').css("padding-top","0");
-                });
-                */
-            }
-/*
-            if ($(this).scrollTop() > 60) {
-                $('.header').css("position","fixed");
-                $('.top').css("margin-top","35px");
+                //$('#top').css("padding-top","0");
             } else {
-                $('.top').css("margin-top","55px");
+                $('.top_claim').slideDown(1000);
             }
-*/
         });
 
     }
