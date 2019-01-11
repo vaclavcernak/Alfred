@@ -81,7 +81,7 @@
         <counts>
           <entry key="gitignore" value="14" />
           <entry key="html" value="861" />
-          <entry key="js" value="1363" />
+          <entry key="js" value="1364" />
           <entry key="rb" value="2" />
           <entry key="scss" value="1207" />
         </counts>
@@ -89,7 +89,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="861" />
-          <entry key="JavaScript" value="1363" />
+          <entry key="JavaScript" value="1364" />
           <entry key="PLAIN_TEXT" value="16" />
           <entry key="SCSS" value="1207" />
         </counts>
@@ -347,12 +347,12 @@
       <workItem from="1546499341892" duration="54821000" />
       <workItem from="1546936344995" duration="9212000" />
       <workItem from="1546945676881" duration="24633000" />
-      <workItem from="1547194432396" duration="14470000" />
+      <workItem from="1547194432396" duration="14633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111594000" />
+    <option name="totallyTimeSpent" value="111757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1997" y="29" width="1766" height="985" extended-state="0" />
