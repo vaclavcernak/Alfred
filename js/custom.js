@@ -88,7 +88,7 @@ $(document).ready(function() {
     // SCROLL TOP NOTE ON MOBILE
 
     var screen = $(window);
-    if (screen.width() < 575) {
+    if (screen.width() <= 575) {
         // MOBILE MENU INIT POSITION
         var wW= $(window).width();
         var mW= 320;
