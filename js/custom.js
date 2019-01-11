@@ -13,6 +13,8 @@ $(document).ready(function() {
         controls: false,
         pager: false,
         onBeforeSlide: function(el) {
+            var wW= $(window).width();
+            var mW= 320;
             var i = (el.getCurrentSlideCount());
             $(menu + ' li.active').removeClass('active');
             $(menu + ' .slide-' + i ).addClass('active');
@@ -26,27 +28,27 @@ $(document).ready(function() {
                     break;
                 case 2:
                     $(menu).animate({
-                        left: -90,
+                        left: -77+((wW-mW)/2)
                     }, 800);
                     break;
                 case 3:
                     $(menu).animate({
-                        left: -230,
+                        left: -222+((wW-mW)/2)
                     }, 800);
                     break;
                 case 4:
                     $(menu).animate({
-                        left: -350,
+                        left: -317+((wW-mW)/2)
                     }, 1000);
                     break;
                 case 5:
                     $(menu).animate({
-                        left: -430,
+                        left: -397+((wW-mW)/2)
                     }, 800);
                     break;
                 case 6:
                     $(menu).animate({
-                        left: -480,
+                        left: -518+((wW-mW)/2)
                     }, 800);
                     break;
             }
