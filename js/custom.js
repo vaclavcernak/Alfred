@@ -80,7 +80,7 @@ $(document).ready(function() {
         slider.goToSlide(5);
     });
 
-    $(menu).on('click', 'li', function() {
+    $(menu).on('click', 'li a', function() {
         $(menu + ' li.active').removeClass('active');
         $(this).addClass('active');
     });
