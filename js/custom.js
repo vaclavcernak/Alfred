@@ -95,6 +95,7 @@ $(document).ready(function() {
         $(menu).css("left", 60+((wW-mW)/2));
 
         // Google + iOS APP banner
+        var android = location.href.match(/#android$/) || navigator.userAgent.match(/Android/i) != null;
         $.smartbanner({
             title: 'Můj Alfred',
             author: 'PREVIO s.r.o.',
@@ -103,9 +104,9 @@ $(document).ready(function() {
             price: 'Zdarma', // Price of the app
             inAppStore: 'Na App Store', // Text of price for iOS
             inGooglePlay: 'Na Google Play', // Text of price for Android
+            force: android ? 'android' : 'ios',
             daysHidden: 0,
             daysReminder: 0,
-            force: 'ios'
         });
 
         // SCROLL TOP NOTE ON MOBILE
