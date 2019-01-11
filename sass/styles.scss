@@ -110,7 +110,7 @@ img {
     top: 0;
     width: 100%;
     z-index: 10;
-    border-bottom: 1px solid #ffffff;
+    //border-bottom: 1px solid #ffffff;
     .logo {
       display: none;
     }
@@ -350,6 +350,25 @@ img {
   }
 }
 
+.container.carousel {
+  @media #{$m-lg} {
+    max-width: 1400px;
+  }
+}
+
+.lSSlideWrapper {
+  @media #{$m-lg} {
+    background: url("../images/carousel-fade.png") repeat-y center center;
+    background-size: contain;
+    height: 100%;
+    .lightSlider {
+      position: relative;
+      z-index: -1;
+      padding-left: 130px;
+    }
+  }
+}
+
 .content_item {
   &.row {
     margin-left: 0;
@@ -375,16 +394,21 @@ img {
     margin-top: 20px;
   }
   .content_left {
+    position: relative;
     @media #{$m-xs} {
       img {
         display: none;
       }
     }
   }
+
   .content_right {
     margin-top: 160px;
     img.mobile {
       display: none;
+    }
+    @media #{$m-sm} {
+      margin-top: 50px;
     }
     @media #{$m-xs} {
       margin-top: 10px;
