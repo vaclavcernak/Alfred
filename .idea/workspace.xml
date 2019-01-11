@@ -6,7 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb606ac9-bf5a-443e-a7f0-2f80e2fdbc74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,18 +84,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="14" />
-          <entry key="html" value="688" />
-          <entry key="js" value="1244" />
+          <entry key="html" value="690" />
+          <entry key="js" value="1282" />
           <entry key="rb" value="2" />
-          <entry key="scss" value="786" />
+          <entry key="scss" value="793" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="688" />
-          <entry key="JavaScript" value="1244" />
+          <entry key="HTML" value="690" />
+          <entry key="JavaScript" value="1282" />
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="SCSS" value="786" />
+          <entry key="SCSS" value="793" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -117,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="178" column="191" selection-start-line="178" selection-start-column="191" selection-end-line="178" selection-end-column="191" />
+            <state relative-caret-position="344">
+              <caret line="178" column="141" selection-start-line="178" selection-start-column="141" selection-end-line="178" selection-end-column="141" />
             </state>
           </provider>
         </entry>
@@ -138,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="522" column="19" lean-forward="true" selection-start-line="522" selection-start-column="19" selection-end-line="522" selection-end-column="19" />
+            <state relative-caret-position="348">
+              <caret line="517" column="3" lean-forward="true" selection-start-line="517" selection-start-column="3" selection-end-line="517" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -165,8 +169,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+            <state relative-caret-position="391">
+              <caret line="74" column="7" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -203,7 +207,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>trans</find>
       <find>active</find>
       <find>drag</find>
       <find>break</find>
@@ -232,6 +235,7 @@
       <find>appStoreLanguage</find>
       <find>apple</find>
       <find>mobile</find>
+      <find>top_nav</find>
       <find>copy</find>
     </findStrings>
   </component>
@@ -248,10 +252,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/js/jquery.smartbanner.js" />
-        <option value="$PROJECT_DIR$/sass/styles.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/cookies.html" />
         <option value="$PROJECT_DIR$/osobni-udaje.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/styles.scss" />
         <option value="$PROJECT_DIR$/js/custom.js" />
       </list>
     </option>
@@ -359,12 +363,12 @@
       <workItem from="1546499341892" duration="54821000" />
       <workItem from="1546936344995" duration="9212000" />
       <workItem from="1546945676881" duration="24633000" />
-      <workItem from="1547194432396" duration="2234000" />
+      <workItem from="1547194432396" duration="3413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99358000" />
+    <option name="totallyTimeSpent" value="100537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1997" y="29" width="1766" height="985" extended-state="0" />
@@ -528,20 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="522" column="19" lean-forward="true" selection-start-line="522" selection-start-column="19" selection-end-line="522" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="178" column="191" selection-start-line="178" selection-start-column="191" selection-end-line="178" selection-end-column="191" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookies.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -556,10 +546,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="178" column="141" selection-start-line="178" selection-start-column="141" selection-end-line="178" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="517" column="3" lean-forward="true" selection-start-line="517" selection-start-column="3" selection-end-line="517" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+        <state relative-caret-position="391">
+          <caret line="74" column="7" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
         </state>
       </provider>
     </entry>

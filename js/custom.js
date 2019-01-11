@@ -24,32 +24,32 @@ $(document).ready(function() {
                 case 1:
                     $(menu).animate({
                         left: 0,
-                    }, 800);
+                    }, 300);
                     break;
                 case 2:
                     $(menu).animate({
                         left: -77+((wW-mW)/2)
-                    }, 800);
+                    }, 300);
                     break;
                 case 3:
                     $(menu).animate({
                         left: -222+((wW-mW)/2)
-                    }, 800);
+                    }, 300);
                     break;
                 case 4:
                     $(menu).animate({
                         left: -317+((wW-mW)/2)
-                    }, 1000);
+                    }, 300);
                     break;
                 case 5:
                     $(menu).animate({
                         left: -397+((wW-mW)/2)
-                    }, 800);
+                    }, 300);
                     break;
                 case 6:
                     $(menu).animate({
                         left: -518+((wW-mW)/2)
-                    }, 800);
+                    }, 300);
                     break;
             }
         }
@@ -57,30 +57,30 @@ $(document).ready(function() {
 
     // MENU
 
-    $('#top_nav_menu li a').click(function(e){
+    $('#top_nav_menu li a').bind("click tap", function(e){
         e.preventDefault();
     });
 
-    $('.slide-1 a').click(function(){
+    $('.slide-1 a').bind("click tap", function(){
         slider.goToSlide(0);
     });
-    $('.slide-2 a').click(function(){
+    $('.slide-2 a').bind("click tap", function(){
         slider.goToSlide(1);
     });
-    $('.slide-3 a').click(function(){
+    $('.slide-3 a').bind("click tap", function(){
         slider.goToSlide(2);
     });
-    $('.slide-4 a').click(function(){
+    $('.slide-4 a').bind("click tap", function(){
         slider.goToSlide(3);
     });
-    $('.slide-5 a').click(function(){
+    $('.slide-5 a').bind("click tap", function(){
         slider.goToSlide(4);
     });
-    $('.slide-6 a').click(function(){
+    $('.slide-6 a').bind("click tap", function(){
         slider.goToSlide(5);
     });
 
-    $(menu).on('click', 'li a', function() {
+    $(menu + ' li').bind("click tap", function(){
         $(menu + ' li.active').removeClass('active');
         $(this).addClass('active');
     });
