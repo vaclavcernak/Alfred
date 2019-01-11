@@ -100,6 +100,7 @@ $(document).ready(function() {
             inGooglePlay: 'Na Google Play', // Text of price for Android
             daysHidden: 0,
             daysReminder: 0,
+            force: 'ios'
         });
 
         // SCROLL TOP NOTE ON MOBILE
