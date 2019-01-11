@@ -57,30 +57,30 @@ $(document).ready(function() {
 
     // MENU
 
-    $('#top_nav_menu li a').bind("click tap", function(e){
+    $('#top_nav_menu li a').bind("click touchstart", function(e){
         e.preventDefault();
     });
 
-    $('.slide-1 a').bind("click tap", function(){
+    $('.slide-1 a').bind("click touchstart", function(){
         slider.goToSlide(0);
     });
-    $('.slide-2 a').bind("click tap", function(){
+    $('.slide-2 a').bind("click touchstart", function(){
         slider.goToSlide(1);
     });
-    $('.slide-3 a').bind("click tap", function(){
+    $('.slide-3 a').bind("click touchstart", function(){
         slider.goToSlide(2);
     });
-    $('.slide-4 a').bind("click tap", function(){
+    $('.slide-4 a').bind("click touchstart", function(){
         slider.goToSlide(3);
     });
-    $('.slide-5 a').bind("click tap", function(){
+    $('.slide-5 a').bind("click touchstart", function(){
         slider.goToSlide(4);
     });
-    $('.slide-6 a').bind("click tap", function(){
+    $('.slide-6 a').bind("click touchstart", function(){
         slider.goToSlide(5);
     });
 
-    $(menu + ' li').bind("click tap", function(){
+    $(menu + ' li').bind("click touchstart", function(){
         $(menu + ' li.active').removeClass('active');
         $(this).addClass('active');
     });
