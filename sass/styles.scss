@@ -383,7 +383,7 @@ img {
   }
   .content_right {
     margin-top: 160px;
-    img {
+    img.mobile {
       display: none;
     }
     @media #{$m-xs} {
@@ -394,6 +394,9 @@ img {
       img.mobile {
         display: block;
         margin: 0 auto;
+      }
+      img.desktop {
+        display: none;
       }
     }
     @media #{$m-xxs} {
@@ -515,6 +518,13 @@ img {
   }
   p {
     margin-bottom: 0;
+  }
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    &:hover {
+      color: $secondary;
+    }
   }
   img {
     position: relative;

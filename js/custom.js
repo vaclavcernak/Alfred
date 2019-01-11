@@ -61,22 +61,22 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
-    $('.slide-1').click(function(){
+    $('.slide-1 a').click(function(){
         slider.goToSlide(0);
     });
-    $('.slide-2').click(function(){
+    $('.slide-2 a').click(function(){
         slider.goToSlide(1);
     });
-    $('.slide-3').click(function(){
+    $('.slide-3 a').click(function(){
         slider.goToSlide(2);
     });
-    $('.slide-4').click(function(){
+    $('.slide-4 a').click(function(){
         slider.goToSlide(3);
     });
-    $('.slide-5').click(function(){
+    $('.slide-5 a').click(function(){
         slider.goToSlide(4);
     });
-    $('.slide-6').click(function(){
+    $('.slide-6 a').click(function(){
         slider.goToSlide(5);
     });
 
