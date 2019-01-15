@@ -85,7 +85,7 @@ $(document).ready(function() {
         $(this).addClass('active');
     });
 
-    // SCROLL TOP NOTE ON MOBILE
+    // ON MOBILE BEHAVIOR
 
     var screen = $(window);
     if (screen.width() <= 575) {
