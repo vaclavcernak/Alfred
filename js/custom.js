@@ -97,7 +97,7 @@ $(document).ready(function() {
         // Google + iOS APP banner
         var android = location.href.match(/#android$/) || navigator.userAgent.match(/Android/i) != null;
         $.smartbanner({
-            title: 'Můj Alfred',
+            title: 'My Alfred',
             author: 'PREVIO s.r.o.',
             icon: 'images/alfred-app.jpg',
             button: 'Otevřít',

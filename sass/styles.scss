@@ -50,7 +50,6 @@ a {
     text-decoration: none;
   }
   &:hover,
-  &:link,
   &:visited{
     color: $main_color;
   }
@@ -513,10 +512,10 @@ img {
   }
 }
 
-.btn-bordered {
+.button {
+  display: inline-block;
   text-transform: uppercase;
   background: darken($main_color, 5%);
-  border: 1px solid #ffffff;
   color: #ffffff;
   padding: 12px 20px;
   margin-bottom: 10px;
@@ -526,6 +525,7 @@ img {
   -moz-border-radius: 3px;
   border-radius: 3px;
   transition: .5s;
+  text-decoration: none;
   &:hover {
     background: #ffffff;
     color: $main_color;
@@ -536,6 +536,10 @@ img {
   @media #{$m-xxs} {
     padding: 12px 15px;
   }
+}
+
+.btn-bordered {
+  border: 1px solid #ffffff;
 }
 
 .copyright {
