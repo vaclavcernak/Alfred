@@ -113,7 +113,6 @@ $(document).ready(function() {
         $(window).on('scroll', function() {
             if ($(this).scrollTop() > 0) {
                 $('.top_claim').slideUp(1000);
-                //$('#top').css("padding-top","0");
             } else {
                 $('.top_claim').slideDown(1000);
             }
