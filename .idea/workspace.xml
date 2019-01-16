@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/js/custom.js" line="120" />
+    <bookmark url="file://$PROJECT_DIR$/js/custom.js" line="122" />
     <bookmark url="file://$PROJECT_DIR$/js/custom.js" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb606ac9-bf5a-443e-a7f0-2f80e2fdbc74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +82,7 @@
         <counts>
           <entry key="gitignore" value="14" />
           <entry key="html" value="896" />
-          <entry key="js" value="1384" />
+          <entry key="js" value="1390" />
           <entry key="rb" value="2" />
           <entry key="scss" value="1287" />
         </counts>
@@ -95,7 +90,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="896" />
-          <entry key="JavaScript" value="1384" />
+          <entry key="JavaScript" value="1390" />
           <entry key="PLAIN_TEXT" value="16" />
           <entry key="SCSS" value="1287" />
         </counts>
@@ -172,7 +167,7 @@
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+              <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -341,12 +336,12 @@
       <workItem from="1546945676881" duration="24633000" />
       <workItem from="1547194432396" duration="15981000" />
       <workItem from="1547450032283" duration="11115000" />
-      <workItem from="1547631540903" duration="968000" />
+      <workItem from="1547631540903" duration="1125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125188000" />
+    <option name="totallyTimeSpent" value="125345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1972" y="35" width="1766" height="985" extended-state="0" />
@@ -513,7 +508,7 @@
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+          <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
         </state>
       </provider>
     </entry>

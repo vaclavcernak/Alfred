@@ -104,12 +104,13 @@ $(document).ready(function() {
             price: 'Zdarma', // Price of the app
             inAppStore: 'Na App Store', // Text of price for iOS
             inGooglePlay: 'Na Google Play', // Text of price for Android
-            force: 'ios',
+            force: android ? 'android' : 'ios',
             daysHidden: 0,
             daysReminder: 0,
         });
 
         // SCROLL TOP NOTE ON MOBILE
+        /*
         $(window).on('scroll', function() {
             if ($(this).scrollTop() > 0) {
                 $('.top_claim').slideUp(1000);
@@ -117,6 +118,7 @@ $(document).ready(function() {
                 $('.top_claim').slideDown(1000);
             }
         });
+        */
 
     }
 
