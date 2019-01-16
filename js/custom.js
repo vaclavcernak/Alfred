@@ -104,7 +104,7 @@ $(document).ready(function() {
             price: 'Zdarma', // Price of the app
             inAppStore: 'Na App Store', // Text of price for iOS
             inGooglePlay: 'Na Google Play', // Text of price for Android
-            force: android ? 'android' : 'ios',
+            force: 'ios',
             daysHidden: 0,
             daysReminder: 0,
         });

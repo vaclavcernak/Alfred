@@ -133,7 +133,7 @@ img {
 
 .top {
   padding-top: 150px;
-  background: url("../images/top.jpg") no-repeat 115% top;
+  background: url("../images/homepage.png") no-repeat 115% top;
   @media (min-width:1200px) and (max-width:1600px) {
     background-size: 40%;
   }
@@ -399,6 +399,9 @@ img {
   }
   .content_left {
     position: relative;
+    img {
+      max-width: 470px;
+    }
     @media #{$m-xs} {
       img {
         display: none;
