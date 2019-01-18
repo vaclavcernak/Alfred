@@ -6,19 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb606ac9-bf5a-443e-a7f0-2f80e2fdbc74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/images/checkin-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/doplnkovesluzby-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hotelaokoli-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mobile-checkin-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mobile-doplnkovesluzby-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mobile-hotelaokoli-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mobile-platba-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mobile-recenze-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mobile-zamkovysystem-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/platba-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/recenze-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/top.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/zamkovysystem-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/doplnkovesluzby-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/doplnkovesluzby-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hotelaokoli-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/hotelaokoli-image.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +169,7 @@
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
+              <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -260,10 +250,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1972" />
-    <option name="y" value="35" />
-    <option name="width" value="1766" />
-    <option name="height" value="985" />
+    <option name="x" value="-8" />
+    <option name="width" value="1933" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -348,18 +337,18 @@
       <workItem from="1546945676881" duration="24633000" />
       <workItem from="1547194432396" duration="15981000" />
       <workItem from="1547450032283" duration="11115000" />
-      <workItem from="1547631540903" duration="3676000" />
+      <workItem from="1547631540903" duration="4157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127896000" />
+    <option name="totallyTimeSpent" value="128377000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1972" y="35" width="1766" height="985" extended-state="0" />
+    <frame x="-6" y="0" width="1546" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24208675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2779273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -372,7 +361,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2467685" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2970297" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -513,7 +502,7 @@
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
+          <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
         </state>
       </provider>
     </entry>
