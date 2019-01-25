@@ -4,6 +4,8 @@ $(document).ready(function() {
 
     // CONTENT SLIDER
     var menu = ("#top_nav_menu");
+    var menu_cz = (".cz #top_nav_menu");
+    var menu_en = (".en #top_nav_menu");
     var slider = $("#content-wrap").lightSlider({
         item: 1,
         loop: false,
@@ -22,33 +24,51 @@ $(document).ready(function() {
             // Horizontal scrolling menu on mobile
             switch (i) {
                 case 1:
-                    $(menu).animate({
+                    $(menu_cz).animate({
                         left: 60+((wW-mW)/2)
+                    }, 300);
+                    $(menu_en).animate({
+                        left: 20+((wW-mW)/2)
                     }, 300);
                     break;
                 case 2:
-                    $(menu).animate({
+                    $(menu_cz).animate({
                         left: -77+((wW-mW)/2)
+                    }, 300);
+                    $(menu_en).animate({
+                        left: -170+((wW-mW)/2)
                     }, 300);
                     break;
                 case 3:
-                    $(menu).animate({
+                    $(menu_cz).animate({
                         left: -222+((wW-mW)/2)
                     }, 300);
-                    break;
-                case 4:
-                    $(menu).animate({
+                    $(menu_en).animate({
                         left: -317+((wW-mW)/2)
                     }, 300);
                     break;
+                case 4:
+                    $(menu_cz).animate({
+                        left: -317+((wW-mW)/2)
+                    }, 300);
+                    $(menu_en).animate({
+                        left: -430+((wW-mW)/2)
+                    }, 300);
+                    break;
                 case 5:
-                    $(menu).animate({
+                    $(menu_cz).animate({
                         left: -397+((wW-mW)/2)
+                    }, 300);
+                    $(menu_en).animate({
+                        left: -510+((wW-mW)/2)
                     }, 300);
                     break;
                 case 6:
-                    $(menu).animate({
+                    $(menu_cz).animate({
                         left: -518+((wW-mW)/2)
+                    }, 300);
+                    $(menu_en).animate({
+                        left: -610+((wW-mW)/2)
                     }, 300);
                     break;
             }
@@ -92,22 +112,9 @@ $(document).ready(function() {
         // MOBILE MENU INIT POSITION
         var wW= $(window).width();
         var mW= 320;
-        $(menu).css("left", 60+((wW-mW)/2));
+        $(menu_cz).css("left", 60+((wW-mW)/2));
+        $(menu_en).css("left", 20+((wW-mW)/2));
 
-        // Google + iOS APP banner
-        var android = location.href.match(/#android$/) || navigator.userAgent.match(/Android/i) != null;
-        $.smartbanner({
-            title: 'My Alfred',
-            author: 'PREVIO s.r.o.',
-            icon: 'images/alfred-app.jpg',
-            button: 'Otevřít',
-            price: 'Zdarma', // Price of the app
-            inAppStore: 'Na App Store', // Text of price for iOS
-            inGooglePlay: 'Na Google Play', // Text of price for Android
-            force: android ? 'android' : 'ios',
-            daysHidden: 0,
-            daysReminder: 0,
-        });
 
         // SCROLL TOP NOTE ON MOBILE
         /*
@@ -121,5 +128,18 @@ $(document).ready(function() {
         */
 
     }
+
+    // Languages
+
+    if ($(window).width() <= 1200) {
+        var langpull = $('#language li:first-child');
+        var langmenu = $('#language');
+
+        $(langpull).on('click', function(e) {
+            e.preventDefault();
+            langmenu.toggleClass('langdrop');
+        });
+    }
+
 
 });

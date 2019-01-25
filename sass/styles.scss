@@ -39,6 +39,14 @@ $semibold: 600;
 
 //
 
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: 0;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
 }
@@ -99,6 +107,9 @@ img {
 
 .header {
   padding-top: 35px;
+  .container {
+    position: relative;
+  }
   .logo {
     img {
       max-height: 60px;
@@ -133,7 +144,8 @@ img {
 
 .top {
   padding-top: 150px;
-  background: url("../images/homepage.png") no-repeat 115% top;
+  background-repeat:  no-repeat;
+  background-position: 115% top;
   @media (min-width:1200px) and (max-width:1600px) {
     background-size: 40%;
   }
@@ -142,11 +154,12 @@ img {
     padding-top: 50px;
   }
   @media #{$m-sm_xxs} {
-    background: none;
+    background: none !important;
     padding-top: 30px;
   }
   @media #{$m-xxs} {
     background: $main_color;
+    background-image: none !important;
     padding-top: 5px;
     text-align: center;
     color: #ffffff;
@@ -159,6 +172,14 @@ img {
       margin-bottom: 35px;
     }
   }
+}
+
+.cz .top {
+  background-image: url("../images/Homepage-CZ.png");
+}
+
+.en .top {
+  background-image: url("../images/Homepage-EN.png");
 }
 
 .top_claim {
@@ -415,7 +436,7 @@ img {
   }
 
   .content_right {
-    margin-top: 160px;
+    margin-top: 100px;
     .image-wrap {
       @media #{$m-lg_md} {
         position: absolute;
@@ -764,4 +785,88 @@ img {
   &.windows .sb-icon {
     border-radius: 0;
   }
+}
+
+/** LANGUAGE SWITCHER **/
+
+#language {
+  max-height: 36px;
+  margin-top: -15px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 0px;
+  /*box-shadow: 1px 1px 0 rgba(0,0,0,.12);*/
+  overflow: hidden;
+  transition: .4s ease !important;
+  @media #{$m-xxs} {
+    text-indent: -9999px;
+    max-height: 30px;
+  }
+  ul {
+    margin-bottom: 0;
+  }
+  li {
+    a {
+      width: 67px;
+      height: 36px;
+      padding: 12px 0 0 41px;
+      font-size: 11px;
+      font-weight: bold;
+      color: #333;
+      letter-spacing: 1px;
+      display: block;
+      background: #EEE;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: 1px solid #cccccc;
+      border-top: 0;
+      @media #{$m-xxs} {
+        width: 43px;
+        height: 30px;
+        padding: 9px 0 0 41px;
+      }
+      &:before {
+        content: "";
+        width: 23px;
+        height: 15px;
+        margin-top: -2px;
+        position: absolute;
+        left: 10px;
+        background-size: cover;
+      }
+    }
+    &:first-child {
+      a {
+        background: #ffffff;
+        border: 1px solid #cccccc;
+        border-radius: 0px;
+        box-shadow: none;
+        cursor: default;
+        @media #{$m-xxs} {
+          background: none;
+        }
+      }
+    }
+  }
+  li.cz {
+    a {
+      &:before {
+        background-image: url("../images/lang-cz.png");
+      }
+    }
+  }
+  li.en {
+    a {
+      &:before {
+        background-image: url("../images/lang-en.png");
+      }
+    }
+  }
+  &:hover {
+    max-height: 200px;
+  }
+}
+#language.langdrop {
+  max-height: 200px !important;
 }
