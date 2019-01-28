@@ -6,7 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb606ac9-bf5a-443e-a7f0-2f80e2fdbc74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,18 +86,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="14" />
-          <entry key="html" value="1203" />
+          <entry key="html" value="1235" />
           <entry key="js" value="1486" />
           <entry key="rb" value="2" />
-          <entry key="scss" value="1879" />
+          <entry key="scss" value="1916" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1203" />
+          <entry key="HTML" value="1235" />
           <entry key="JavaScript" value="1486" />
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="SCSS" value="1879" />
+          <entry key="SCSS" value="1916" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -133,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index-en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="60" column="200" selection-start-line="60" selection-start-column="200" selection-end-line="60" selection-end-column="200" />
+            <state relative-caret-position="191">
+              <caret line="155" column="164" selection-start-line="155" selection-start-column="164" selection-end-line="155" selection-end-column="164" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -154,11 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="804" column="11" selection-start-line="804" selection-start-column="11" selection-end-line="804" selection-end-column="11" />
+            <state relative-caret-position="412">
+              <caret line="834" column="7" selection-start-line="834" selection-start-column="7" selection-end-line="834" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -225,10 +229,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sb-close</find>
-      <find>trans</find>
-      <find>transitio</find>
-      <find>content-wrap</find>
       <find>lightSlider</find>
       <find>305</find>
       <find>static</find>
@@ -255,6 +255,10 @@
       <find>top:</find>
       <find>logo</find>
       <find>for</find>
+      <find>an activities</find>
+      <find>reception</find>
+      <find>That is why you will be asked to do so at the end of your stay.</find>
+      <find>cur</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -271,13 +275,13 @@
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/js/jquery.smartbanner.js" />
         <option value="$PROJECT_DIR$/js/custom.js" />
-        <option value="$PROJECT_DIR$/sass/styles.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/cookies.html" />
         <option value="$PROJECT_DIR$/osobni-udaje.html" />
         <option value="$PROJECT_DIR$/cookies-en.html" />
         <option value="$PROJECT_DIR$/personal-data.html" />
         <option value="$PROJECT_DIR$/index-en.html" />
+        <option value="$PROJECT_DIR$/sass/styles.scss" />
       </list>
     </option>
   </component>
@@ -326,6 +330,11 @@
               <item name="Alfred" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alfred" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alfred" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alfred" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -383,12 +392,12 @@
       <workItem from="1547450032283" duration="11115000" />
       <workItem from="1547631540903" duration="4157000" />
       <workItem from="1548055094147" duration="11276000" />
-      <workItem from="1548406680979" duration="8935000" />
+      <workItem from="1548406680979" duration="12474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148588000" />
+    <option name="totallyTimeSpent" value="152127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1961" y="38" width="1821" height="973" extended-state="0" />
@@ -531,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="804" column="11" selection-start-line="804" selection-start-column="11" selection-end-line="804" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -587,11 +589,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index-en.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="60" column="200" selection-start-line="60" selection-start-column="200" selection-end-line="60" selection-end-column="200" />
+        <state relative-caret-position="191">
+          <caret line="155" column="164" selection-start-line="155" selection-start-column="164" selection-end-line="155" selection-end-column="164" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="834" column="7" selection-start-line="834" selection-start-column="7" selection-end-line="834" selection-end-column="7" />
         </state>
       </provider>
     </entry>
