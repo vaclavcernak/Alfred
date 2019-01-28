@@ -800,6 +800,9 @@ img {
   border-radius: 0px;
   overflow: hidden;
   transition: .4s ease !important;
+  &:hover li a:first-child{
+    background: #eeeeee ;
+  }
   @media #{$m-lg_md} {
     top: 50px;
     right: 20px;
@@ -828,6 +831,9 @@ img {
       text-transform: uppercase;
       border: 1px solid #cccccc;
       border-top: 0;
+      &:hover {
+        background: #cccccc !important;
+      }
       @media #{$m-xxs} {
         width: 43px;
         height: 30px;
@@ -850,7 +856,7 @@ img {
         border-radius: 0px;
         box-shadow: none;
         &:hover {
-          background: #eeeeee;
+          background: #cccccc;
         }
         @media #{$m-xxs} {
           background: none;
