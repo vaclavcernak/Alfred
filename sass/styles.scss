@@ -56,9 +56,6 @@ a {
   text-decoration: underline;
   &:hover {
     text-decoration: none;
-  }
-  &:hover,
-  &:visited{
     color: $main_color;
   }
 }
