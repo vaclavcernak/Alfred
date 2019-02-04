@@ -28,7 +28,7 @@ $(document).ready(function() {
                 $('.prev-slide').hide();
             }
 
-            if (i == 6) {
+            if (i > 5) {
                 $('.next-slide').hide();
             } else {
                 $('.next-slide').show();
