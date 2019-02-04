@@ -14,20 +14,25 @@ $(document).ready(function() {
         enableDrag:true,
         controls: false,
         pager: false,
-        responsive : [
-            {
-                breakpoint:576,
-                settings: {
-                    controls: true
-                }
-            }
-        ],
         onBeforeSlide: function(el) {
             var wW= $(window).width();
             var mW= 320;
             var i = (el.getCurrentSlideCount());
             $(menu + ' li.active').removeClass('active');
             $(menu + ' .slide-' + i ).addClass('active');
+
+            // carousel controls
+            if (i > 1) {
+                $('.prev-slide').show();
+            } else {
+                $('.prev-slide').hide();
+            }
+
+            if (i == 6) {
+                $('.next-slide').hide();
+            } else {
+                $('.next-slide').show();
+            }
 
             // Horizontal scrolling menu on mobile
             switch (i) {
@@ -115,6 +120,13 @@ $(document).ready(function() {
 
     // ON MOBILE BEHAVIOR
 
+    $('.prev-slide').click(function(){
+        slider.goToPrevSlide();
+    });
+    $('.next-slide').click(function(){
+        slider.goToNextSlide();
+    });
+
     var screen = $(window);
     if (screen.width() <= 575) {
         // MOBILE MENU INIT POSITION
@@ -122,18 +134,6 @@ $(document).ready(function() {
         var mW= 320;
         $(menu_cz).css("left", 60+((wW-mW)/2));
         $(menu_en).css("left", 20+((wW-mW)/2));
-
-
-        // SCROLL TOP NOTE ON MOBILE
-        /*
-        $(window).on('scroll', function() {
-            if ($(this).scrollTop() > 0) {
-                $('.top_claim').slideUp(1000);
-            } else {
-                $('.top_claim').slideDown(1000);
-            }
-        });
-        */
 
     }
 

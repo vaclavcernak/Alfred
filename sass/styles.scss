@@ -465,8 +465,8 @@ img {
       }
     }
     @media #{$m-xxs} {
-      padding-left: 40px;
-      padding-right: 40px;
+      padding-left: 30px;
+      padding-right: 30px;
       display: grid;
       h3 {
         display: none;
@@ -887,34 +887,19 @@ img {
 /* slider actions */
 @media #{$m-xxs} {
   .carousel {
-    .lSAction {
-      > a {
-        width: 20px;
-        display: block;
-        top: 10%;
-        height: 20px;
-        background: none;
-        cursor: pointer;
+    .controls {
+      .control {
         position: absolute;
+        top: 8%;
         z-index: 99;
-        margin-top: -16px;
-        opacity: 1;
-        font-family: "Font Awesome 5 Pro";
-        &::before {
-          content: "\f137";
-        }
-        &:hover {
-          opacity: 1;
-        }
-        &.disabled {
-          pointer-events: none;
-        }
+        font-size: 20px;
+        color: $main_color;
       }
-      > .lSPrev {
-        left: 0;
+      .prev-slide {
+        left: 15px;
       }
-      > .lSNext {
-        right: 0;
+      .next-slide {
+        right: 15px;
       }
     }
   }
