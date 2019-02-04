@@ -659,7 +659,7 @@ img {
 @media #{$m-xxs} {
 
   .image-wrap {
-    margin: 0 -25px;
+    /*margin: 0 -25px;*/
     align-self: end;
   }
   .container {
@@ -890,7 +890,7 @@ img {
     .controls {
       .control {
         position: absolute;
-        top: 9%;
+        top: 60%;
         z-index: 99;
         font-size: 20px;
         color: $main_color;
