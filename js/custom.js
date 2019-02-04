@@ -14,6 +14,14 @@ $(document).ready(function() {
         enableDrag:true,
         controls: false,
         pager: false,
+        responsive : [
+            {
+                breakpoint:576,
+                settings: {
+                    controls: true
+                }
+            }
+        ],
         onBeforeSlide: function(el) {
             var wW= $(window).width();
             var mW= 320;

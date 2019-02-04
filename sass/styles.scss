@@ -465,8 +465,8 @@ img {
       }
     }
     @media #{$m-xxs} {
-      padding-left: 30px;
-      padding-right: 30px;
+      padding-left: 40px;
+      padding-right: 40px;
       display: grid;
       h3 {
         display: none;
@@ -882,3 +882,41 @@ img {
 #language.langdrop {
   max-height: 200px !important;
 }
+
+
+/* slider actions */
+@media #{$m-xxs} {
+  .carousel {
+    .lSAction {
+      > a {
+        width: 32px;
+        display: block;
+        top: 10%;
+        height: 32px;
+        background-image: url('../images/controls.png');
+        cursor: pointer;
+        position: absolute;
+        z-index: 99;
+        margin-top: -16px;
+        opacity: 0.5;
+        -webkit-transition: opacity 0.35s linear 0s;
+        transition: opacity 0.35s linear 0s;
+        &:hover {
+          opacity: 1;
+        }
+        &.disabled {
+          pointer-events: none;
+        }
+      }
+      > .lSPrev {
+        background-position: 0 0;
+        left: 0;
+      }
+      > .lSNext {
+        background-position: -32px 0;
+        right: 0;
+      }
+    }
+  }
+}
+
