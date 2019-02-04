@@ -703,9 +703,13 @@ img {
     padding-left: 15px;
     padding-right: 15px;
   }
-
   .align-c {
     align-items: center;
+  }
+  .xs-full-width {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 
@@ -943,13 +947,5 @@ img {
         right: 15px;
       }
     }
-  }
-}
-
-@media (max-width: 575px) {
-  .xs-full-width {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 20px;
   }
 }
