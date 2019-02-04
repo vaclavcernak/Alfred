@@ -885,9 +885,13 @@ img {
 
 
 /* slider actions */
+.carousel .controls {
+  display: none;
+}
 @media #{$m-xxs} {
   .carousel {
     .controls {
+      display: block;
       .control {
         position: absolute;
         top: 60%;
