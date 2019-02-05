@@ -10,10 +10,11 @@ $(document).ready(function() {
         item: 1,
         loop: false,
         slideMargin: 0,
-        enableTouch:true,
-        enableDrag:true,
+        //enableDrag:true,
         controls: false,
         pager: false,
+        freeMove: false,
+        enableDrag: false,
         onBeforeSlide: function(el) {
             var wW= $(window).width();
             var mW= 320;
