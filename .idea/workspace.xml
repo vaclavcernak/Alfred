@@ -5,9 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/js/custom.js" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb606ac9-bf5a-443e-a7f0-2f80e2fdbc74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/styles.scss" afterDir="false" />
-    </list>
+    <list default="true" id="eb606ac9-bf5a-443e-a7f0-2f80e2fdbc74" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="14" />
-          <entry key="html" value="3036" />
+          <entry key="html" value="3039" />
           <entry key="js" value="1843" />
           <entry key="php" value="604" />
           <entry key="rb" value="2" />
@@ -93,7 +91,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3036" />
+          <entry key="HTML" value="3039" />
           <entry key="JavaScript" value="1843" />
           <entry key="PHP" value="604" />
           <entry key="PLAIN_TEXT" value="16" />
@@ -129,11 +127,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2929">
-              <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+            <state relative-caret-position="199">
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -176,10 +174,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="-109">
               <caret line="700" column="21" selection-start-line="700" selection-start-column="21" selection-end-line="700" selection-end-column="21" />
             </state>
           </provider>
@@ -300,7 +298,6 @@
       <find>That is why you will be asked to do so at the end of your stay.</find>
       <find>cur</find>
       <find>images</find>
-      <find>.image-wrap</find>
       <find>grid</find>
       <find>.button</find>
       <find>rem</find>
@@ -318,6 +315,7 @@
       <find>swipeThreshold:</find>
       <find>swipeThreshold</find>
       <find>distance</find>
+      <find>.image-wrap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -338,13 +336,13 @@
         <option value="$PROJECT_DIR$/cookies-en.html" />
         <option value="$PROJECT_DIR$/personal-data.html" />
         <option value="$PROJECT_DIR$/index-en.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/mail.php" />
         <option value="$PROJECT_DIR$/kontakt.html" />
         <option value="$PROJECT_DIR$/js/lightslider.min.js" />
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/email.html" />
         <option value="$PROJECT_DIR$/sass/styles.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -361,7 +359,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1976" />
-    <option name="y" value="49" />
+    <option name="y" value="38" />
     <option name="width" value="1811" />
     <option name="height" value="991" />
   </component>
@@ -447,15 +445,15 @@
       <workItem from="1548055094147" duration="11276000" />
       <workItem from="1548406680979" duration="13919000" />
       <workItem from="1548758763324" duration="3699000" />
-      <workItem from="1549267414698" duration="32733000" />
+      <workItem from="1549267414698" duration="33280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190004000" />
+    <option name="totallyTimeSpent" value="190551000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1976" y="49" width="1811" height="991" extended-state="0" />
+    <frame x="1976" y="38" width="1811" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24785836" />
@@ -675,17 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2929">
-          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -757,8 +744,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="-109">
           <caret line="700" column="21" selection-start-line="700" selection-start-column="21" selection-end-line="700" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
