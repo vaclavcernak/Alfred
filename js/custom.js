@@ -13,6 +13,7 @@ $(document).ready(function() {
         controls: false,
         pager: false,
         freeMove: false,
+        adaptiveHeight: true,
         onBeforeSlide: function(el) {
             var wW= $(window).width();
             var mW= 320;
