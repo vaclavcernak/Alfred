@@ -412,6 +412,7 @@ img {
     padding-right: 0;
     @media #{$m-xxs} {
       height: 100%;
+      min-height: 800px;
     }
   }
   h3 {
