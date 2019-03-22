@@ -31,12 +31,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_content = "Jméno: $name\n";
     $email_content .= "Email: $email\n";
     $email_content .= "Telefon: $phone\n\n";
+    $email_content .= "Telefon: $phone\n\n";
     $email_content .= "Zpráva:\n$message\n";
 
     // Build the email headers.
-    $email_headers = "From: $name <$email> \r\n";
-    $email_headers .= "MIME-Version: 1.0\r\n";
-    $email_headers .= "Content-type: text/plain; charset=utf-8 \r\n";
+    $email_headers = "From: $name <$email> \n";
+    $email_headers .= "MIME-Version: 1.0\n";
+    $email_headers .= "Content-type: text/plain; charset=utf-8 \n";
     $email_headers .= "Content-Transfer-Encoding: 8bit";
 
     // Send the email.

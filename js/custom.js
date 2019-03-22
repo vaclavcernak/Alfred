@@ -6,6 +6,8 @@ $(document).ready(function() {
     var menu = ("#top_nav_menu");
     var menu_cz = (".cz #top_nav_menu");
     var menu_en = (".en #top_nav_menu");
+    var menu_pl = (".pl #top_nav_menu");
+    var menu_hu = (".hu #top_nav_menu");
     var slider = $("#content-wrap").lightSlider({
         item: 1,
         loop: false,
@@ -43,12 +45,24 @@ $(document).ready(function() {
                     $(menu_en).animate({
                         left: 20+((wW-mW)/2)
                     }, 300);
+                    $(menu_pl).animate({
+                        left: 30+((wW-mW)/2)
+                    }, 300);
+                    $(menu_hu).animate({
+                        left: 20+((wW-mW)/2)
+                    }, 300);
                     break;
                 case 2:
                     $(menu_cz).animate({
                         left: -77+((wW-mW)/2)
                     }, 300);
                     $(menu_en).animate({
+                        left: -170+((wW-mW)/2)
+                    }, 300);
+                    $(menu_pl).animate({
+                        left: -140+((wW-mW)/2)
+                    }, 300);
+                    $(menu_hu).animate({
                         left: -170+((wW-mW)/2)
                     }, 300);
                     break;
@@ -59,12 +73,24 @@ $(document).ready(function() {
                     $(menu_en).animate({
                         left: -317+((wW-mW)/2)
                     }, 300);
+                    $(menu_pl).animate({
+                        left: -285+((wW-mW)/2)
+                    }, 300);
+                    $(menu_hu).animate({
+                        left: -317+((wW-mW)/2)
+                    }, 300);
                     break;
                 case 4:
                     $(menu_cz).animate({
                         left: -317+((wW-mW)/2)
                     }, 300);
                     $(menu_en).animate({
+                        left: -430+((wW-mW)/2)
+                    }, 300);
+                    $(menu_pl).animate({
+                        left: -390+((wW-mW)/2)
+                    }, 300);
+                    $(menu_hu).animate({
                         left: -430+((wW-mW)/2)
                     }, 300);
                     break;
@@ -75,12 +101,24 @@ $(document).ready(function() {
                     $(menu_en).animate({
                         left: -510+((wW-mW)/2)
                     }, 300);
+                    $(menu_pl).animate({
+                        left: -480+((wW-mW)/2)
+                    }, 300);
+                    $(menu_hu).animate({
+                        left: -510+((wW-mW)/2)
+                    }, 300);
                     break;
                 case 6:
                     $(menu_cz).animate({
                         left: -518+((wW-mW)/2)
                     }, 300);
                     $(menu_en).animate({
+                        left: -610+((wW-mW)/2)
+                    }, 300);
+                    $(menu_pl).animate({
+                        left: -600+((wW-mW)/2)
+                    }, 300);
+                    $(menu_hu).animate({
                         left: -610+((wW-mW)/2)
                     }, 300);
                     break;
@@ -134,6 +172,8 @@ $(document).ready(function() {
         var mW= 320;
         $(menu_cz).css("left", 60+((wW-mW)/2));
         $(menu_en).css("left", 20+((wW-mW)/2));
+        $(menu_pl).css("left", 30+((wW-mW)/2));
+        $(menu_hu).css("left", 20+((wW-mW)/2));
 
     }
 

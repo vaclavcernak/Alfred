@@ -588,6 +588,11 @@ img {
   }
 }
 
+.pl .button {
+  font-size: 13px;
+  padding: 12px 15px;
+}
+
 .btn-bordered {
   border: 1px solid #ffffff;
 }
@@ -595,6 +600,7 @@ img {
 .btn-bordered-dark {
   border: 1px solid $main_color;
 }
+
 
 .copyright {
   text-align: right;
@@ -840,6 +846,7 @@ img {
   border-radius: 0px;
   overflow: hidden;
   transition: .4s ease !important;
+  z-index: 1;
   &:hover li a:first-child{
     background: #eeeeee ;
   }
@@ -915,6 +922,20 @@ img {
     a {
       &:before {
         background-image: url("../images/lang-en.png");
+      }
+    }
+  }
+  li.pl {
+    a {
+      &:before {
+        background-image: url("../images/lang-pl.png");
+      }
+    }
+  }
+  li.hu {
+    a {
+      &:before {
+        background-image: url("../images/lang-hu.png");
       }
     }
   }
