@@ -188,7 +188,9 @@ img {
   background-image: url("../images/Homepage-CZ.png");
 }
 
-.en .top {
+.en .top,
+.pl .top,
+.hu .top {
   background-image: url("../images/Homepage-EN.png");
 }
 
@@ -590,6 +592,11 @@ img {
 
 .pl .button {
   font-size: 13px;
+  padding: 12px 15px;
+}
+
+.hu .button {
+  font-size: 12px;
   padding: 12px 15px;
 }
 

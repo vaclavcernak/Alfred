@@ -77,7 +77,7 @@ $(document).ready(function() {
                         left: -285+((wW-mW)/2)
                     }, 300);
                     $(menu_hu).animate({
-                        left: -317+((wW-mW)/2)
+                        left: -340+((wW-mW)/2)
                     }, 300);
                     break;
                 case 4:
@@ -91,7 +91,7 @@ $(document).ready(function() {
                         left: -390+((wW-mW)/2)
                     }, 300);
                     $(menu_hu).animate({
-                        left: -430+((wW-mW)/2)
+                        left: -443+((wW-mW)/2)
                     }, 300);
                     break;
                 case 5:
@@ -105,7 +105,7 @@ $(document).ready(function() {
                         left: -480+((wW-mW)/2)
                     }, 300);
                     $(menu_hu).animate({
-                        left: -510+((wW-mW)/2)
+                        left: -530+((wW-mW)/2)
                     }, 300);
                     break;
                 case 6:
@@ -119,7 +119,7 @@ $(document).ready(function() {
                         left: -600+((wW-mW)/2)
                     }, 300);
                     $(menu_hu).animate({
-                        left: -610+((wW-mW)/2)
+                        left: -640+((wW-mW)/2)
                     }, 300);
                     break;
             }
@@ -173,7 +173,7 @@ $(document).ready(function() {
         $(menu_cz).css("left", 60+((wW-mW)/2));
         $(menu_en).css("left", 20+((wW-mW)/2));
         $(menu_pl).css("left", 30+((wW-mW)/2));
-        $(menu_hu).css("left", 20+((wW-mW)/2));
+        $(menu_hu).css("left", 30+((wW-mW)/2));
 
     }
 
