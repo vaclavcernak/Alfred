@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/js/custom.js" line="177" />
+    <bookmark url="file://$PROJECT_DIR$/js/custom.js" line="197" />
     <bookmark url="file://$PROJECT_DIR$/js/custom.js" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb606ac9-bf5a-443e-a7f0-2f80e2fdbc74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cookies-de.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/de.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personal-data-de.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookies-en.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies-en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookies-hu.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies-hu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookies-pl.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies-pl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookies.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en.html" beforeDir="false" afterPath="$PROJECT_DIR$/en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hu.html" beforeDir="false" afterPath="$PROJECT_DIR$/hu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/osobni-udaje.html" beforeDir="false" afterPath="$PROJECT_DIR$/osobni-udaje.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-data-hu.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal-data-hu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-data-pl.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal-data-pl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-data.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal-data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pl.html" beforeDir="false" afterPath="$PROJECT_DIR$/pl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookies-de.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies-de.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/de.html" beforeDir="false" afterPath="$PROJECT_DIR$/de.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-data-de.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal-data-de.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,23 +114,23 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="14" />
-          <entry key="html" value="4800" />
+          <entry key="html" value="4820" />
           <entry key="ini" value="175" />
-          <entry key="js" value="1952" />
+          <entry key="js" value="2030" />
           <entry key="php" value="787" />
           <entry key="rb" value="2" />
-          <entry key="scss" value="2463" />
+          <entry key="scss" value="2506" />
           <entry key="sites_list" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="4800" />
+          <entry key="HTML" value="4820" />
           <entry key="Ini" value="175" />
-          <entry key="JavaScript" value="1952" />
+          <entry key="JavaScript" value="2030" />
           <entry key="PHP" value="787" />
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="SCSS" value="2463" />
+          <entry key="SCSS" value="2506" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -149,11 +140,11 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="51" />
           <entry key="ini" value="2" />
-          <entry key="js" value="8" />
+          <entry key="js" value="9" />
           <entry key="json" value="1" />
           <entry key="php" value="6" />
           <entry key="png" value="1" />
-          <entry key="scss" value="4" />
+          <entry key="scss" value="5" />
           <entry key="sites_list" value="1" />
         </counts>
       </usages-collector>
@@ -164,10 +155,10 @@
           <entry key="Image" value="1" />
           <entry key="Ini" value="2" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="8" />
+          <entry key="JavaScript" value="9" />
           <entry key="PHP" value="6" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="SCSS" value="4" />
+          <entry key="SCSS" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -184,28 +175,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pl.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personal-data-hu.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-824">
               <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/osobni-udaje.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -219,11 +192,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookies-de.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="130" column="9" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
+            <state relative-caret-position="356">
+              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="608" column="17" selection-start-line="608" selection-start-column="17" selection-end-line="608" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -249,8 +231,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personal-data-de.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+            <state relative-caret-position="424">
+              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="140" column="33" selection-start-line="140" selection-start-column="33" selection-end-line="140" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -258,8 +249,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/de.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="227" column="9" lean-forward="true" selection-start-line="194" selection-end-line="227" selection-end-column="9" />
+            <state relative-caret-position="465">
+              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -279,8 +270,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mail</find>
-      <find>\r\</find>
       <find>\r</find>
       <find>77px</find>
       <find>.top_nav</find>
@@ -290,7 +279,6 @@
       <find>top_nav_menu</find>
       <find>cooki</find>
       <find>hu</find>
-      <find>.en</find>
       <find>menu_cz</find>
       <find>pl</find>
       <find>hu.html</find>
@@ -309,6 +297,9 @@
       <find>/actively-at-lipno</find>
       <find>saunaEn</find>
       <find>en</find>
+      <find>.en</find>
+      <find>.pl</find>
+      <find>image-wrap</find>
     </findStrings>
     <replaceStrings>
       <replace>https://www.myalfred.hu</replace>
@@ -339,8 +330,6 @@
         <option value="$PROJECT_DIR$/mail-test.php" />
         <option value="$PROJECT_DIR$/mail.php" />
         <option value="$PROJECT_DIR$/mail2.php" />
-        <option value="$PROJECT_DIR$/sass/styles.scss" />
-        <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/kontakt.html" />
         <option value="$PROJECT_DIR$/sites_list" />
         <option value="$PROJECT_DIR$/sites-redirects.ini" />
@@ -357,9 +346,11 @@
         <option value="$PROJECT_DIR$/personal-data-hu.html" />
         <option value="$PROJECT_DIR$/personal-data-pl.html" />
         <option value="$PROJECT_DIR$/pl.html" />
-        <option value="$PROJECT_DIR$/de.html" />
-        <option value="$PROJECT_DIR$/personal-data-de.html" />
+        <option value="$PROJECT_DIR$/sass/styles.scss" />
         <option value="$PROJECT_DIR$/cookies-de.html" />
+        <option value="$PROJECT_DIR$/personal-data-de.html" />
+        <option value="$PROJECT_DIR$/de.html" />
+        <option value="$PROJECT_DIR$/js/custom.js" />
       </list>
     </option>
   </component>
@@ -375,10 +366,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2134" />
-    <option name="y" value="121" />
-    <option name="width" value="1551" />
-    <option name="height" value="848" />
+    <option name="x" value="1967" />
+    <option name="y" value="34" />
+    <option name="width" value="1790" />
+    <option name="height" value="957" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -479,17 +470,18 @@
       <workItem from="1555049442364" duration="631000" />
       <workItem from="1555057372721" duration="597000" />
       <workItem from="1555310826178" duration="6025000" />
-      <workItem from="1556194071111" duration="1673000" />
+      <workItem from="1556194071111" duration="2894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254112000" />
+    <option name="totallyTimeSpent" value="255333000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2134" y="121" width="1551" height="848" extended-state="0" />
+    <frame x="1967" y="34" width="1790" height="957" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19248827" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16589595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -502,8 +494,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49899396" visible="true" weight="0.26190478" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.501006" side_tool="true" visible="true" weight="0.26190478" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49884394" visible="true" weight="0.2272175" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5011561" side_tool="true" visible="true" weight="0.2272175" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -632,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="190" column="3" selection-start-line="190" selection-end-line="190" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en/index.html" />
     <entry file="file://$PROJECT_DIR$/theme.js" />
     <entry file="file://$PROJECT_DIR$/sites_list" />
@@ -653,13 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7361">
           <caret line="433" column="33" selection-start-line="433" selection-start-column="33" selection-end-line="433" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2397">
-          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -768,10 +746,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="608" column="17" selection-start-line="608" selection-start-column="17" selection-end-line="608" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookies-de.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal-data-de.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/de.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="227" column="9" lean-forward="true" selection-start-line="194" selection-end-line="227" selection-end-column="9" />
+        <state relative-caret-position="465">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -779,17 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personal-data-de.html">
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookies-de.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="130" column="9" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
+        <state relative-caret-position="458">
+          <caret line="140" column="33" selection-start-line="140" selection-start-column="33" selection-end-line="140" selection-end-column="33" />
         </state>
       </provider>
     </entry>

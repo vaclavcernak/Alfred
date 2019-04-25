@@ -8,6 +8,7 @@ $(document).ready(function() {
     var menu_en = (".en #top_nav_menu");
     var menu_pl = (".pl #top_nav_menu");
     var menu_hu = (".hu #top_nav_menu");
+    var menu_de = (".de #top_nav_menu");
     var slider = $("#content-wrap").lightSlider({
         item: 1,
         loop: false,
@@ -51,6 +52,9 @@ $(document).ready(function() {
                     $(menu_hu).animate({
                         left: 20+((wW-mW)/2)
                     }, 300);
+                    $(menu_de).animate({
+                        left: 20+((wW-mW)/2)
+                    }, 300);
                     break;
                 case 2:
                     $(menu_cz).animate({
@@ -64,6 +68,9 @@ $(document).ready(function() {
                     }, 300);
                     $(menu_hu).animate({
                         left: -170+((wW-mW)/2)
+                    }, 300);
+                    $(menu_de).animate({
+                        left: -195+((wW-mW)/2)
                     }, 300);
                     break;
                 case 3:
@@ -79,6 +86,9 @@ $(document).ready(function() {
                     $(menu_hu).animate({
                         left: -340+((wW-mW)/2)
                     }, 300);
+                    $(menu_de).animate({
+                        left: -435+((wW-mW)/2)
+                    }, 300);
                     break;
                 case 4:
                     $(menu_cz).animate({
@@ -92,6 +102,9 @@ $(document).ready(function() {
                     }, 300);
                     $(menu_hu).animate({
                         left: -443+((wW-mW)/2)
+                    }, 300);
+                    $(menu_de).animate({
+                        left: -600+((wW-mW)/2)
                     }, 300);
                     break;
                 case 5:
@@ -107,6 +120,9 @@ $(document).ready(function() {
                     $(menu_hu).animate({
                         left: -530+((wW-mW)/2)
                     }, 300);
+                    $(menu_de).animate({
+                        left: -705+((wW-mW)/2)
+                    }, 300);
                     break;
                 case 6:
                     $(menu_cz).animate({
@@ -120,6 +136,9 @@ $(document).ready(function() {
                     }, 300);
                     $(menu_hu).animate({
                         left: -640+((wW-mW)/2)
+                    }, 300);
+                    $(menu_de).animate({
+                        left: -820+((wW-mW)/2)
                     }, 300);
                     break;
             }
@@ -174,6 +193,7 @@ $(document).ready(function() {
         $(menu_en).css("left", 20+((wW-mW)/2));
         $(menu_pl).css("left", 30+((wW-mW)/2));
         $(menu_hu).css("left", 30+((wW-mW)/2));
+        $(menu_de).css("left", 30+((wW-mW)/2));
 
     }
 

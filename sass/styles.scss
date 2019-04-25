@@ -190,7 +190,8 @@ img {
 
 .en .top,
 .pl .top,
-.hu .top {
+.hu .top,
+.de .top {
   background-image: url("../images/Homepage-EN.png");
 }
 
@@ -600,6 +601,15 @@ img {
   padding: 12px 15px;
 }
 
+.de .button {
+  font-size: 12px;
+  padding: 12px 15px;
+  @media #{$m-xxs} {
+    padding: 12px 10px;
+    font-size: 10px;
+  }
+}
+
 .btn-bordered {
   border: 1px solid #ffffff;
 }
@@ -946,6 +956,13 @@ img {
       }
     }
   }
+  li.de {
+    a {
+      &:before {
+        background-image: url("../images/lang-de.png");
+      }
+    }
+  }
   &:hover {
     max-height: 200px;
   }
@@ -977,5 +994,14 @@ img {
         right: 15px;
       }
     }
+  }
+}
+
+
+/****/
+
+@media #{$m-lg_md} {
+  .de .content_item .content_right .image-wrap {
+    bottom: 10px;
   }
 }
