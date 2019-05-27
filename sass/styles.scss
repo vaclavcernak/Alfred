@@ -1005,3 +1005,40 @@ img {
     bottom: 10px;
   }
 }
+
+/****/
+
+.roomkeys {
+  text-align: center;
+  .content-subpage {
+    margin-top: 50px;
+  }
+  .heading {
+    .item {
+      display: block;
+      font-size: 30px;
+      color: $main_color;
+      font-weight: $semibold;
+      margin-bottom: 20px;
+      @media #{$m-xxs} {
+        font-size: 24px;
+      }
+    }
+  }
+  .download-text {
+    margin-top: 50px;
+    .item {
+      display: block;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  .download-link {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+}
