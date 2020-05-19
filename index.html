@@ -2,10 +2,8 @@
 <html lang="cs">
 <head>
 	<meta charset="UTF-8">
-	<meta name="robots" content="noindex, nofollow">
+	<meta name="robots" content="index, follow">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="apple-itunes-app" content="app-id=1447093962">
-	<meta name="google-play-app" content="app-id=cz.previo.alfred">
 	<meta name="description" content="Pohodlně spravujte svůj pobyt a využijte každé možnosti, kterou Vám hotel nabízí díky mobilní aplikaci My Alfred. Online check-in, tipy na výlet a více."/>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -68,11 +66,12 @@
 <section class="top" id="top">
 	<div class="container">
 		<div class="top_claim fadeInLeft animated">
-			<h1>Aplikace pro hotelové hosty</h1>
-			<p class="top_claim_text">Alfred Vám <span class="secondary">objedná</span> doplňkové služby, <span class="secondary">poskytne tipy</span> na výlet, <span class="secondary">zobrazí náhled účtu</span> a můžete u něj i zaplatit.</p>
+			<h1>Jsem Alfred,<br>pomáhám hostům s pobytem</h1>
+			<p class="top_claim_text">Zvládneme spolu <span class="secondary">check-in</span>, objednat doplňkové <span class="secondary">služby</span>, dám Vám <span class="secondary">tipy na výlet</span>, ukáži Váš <span class="secondary">hotelový účet</span> a můžete u mě i <span class="secondary">zaplatit</span>.</p>
 		</div>
 		<div class="top_download fadeInUp animated delay-1s">
-			<a class="button btn-bordered-dark" href="https://app.myalfred.cz" target="_blank">Vstoupit do aplikace</a>
+			<p>Máte již svou rezervaci?</p>
+			<a class="button btn-bordered-dark" href="https://app.myalfred.cz" target="_blank">Spustit Alfreda</a>
 		</div>
 		<div class="top_note">
 			<h2>Co Alfred umí</h2>
@@ -85,12 +84,12 @@
 		<div class="mobile-fade-left"></div>
 		<div class="mobile-fade-right"></div>
 		<ul id="top_nav_menu">
-			<li class="active slide-1"><a href="#">Hotel a okolí</a></li>
-			<li class="slide-2"><a href="#">Doplňkové služby</a></li>
-			<li class="slide-3"><a href="#">Check-in/out</a></li>
-			<li class="slide-4"><a href="#">Platba</a></li>
-			<li class="slide-5"><a href="#">Recenze</a></li>
-			<li class="slide-6"><a href="#">Zámkový systém</a></li>
+			<li class="active slide-1"><a href="#">Check-in/out</a></li>
+			<li class="slide-2"><a href="#">Otevřít dveře</a></li>
+			<li class="slide-3"><a href="#">Hotel a okolí</a></li>
+			<li class="slide-4"><a href="#">Doplňkové služby</a></li>
+			<li class="slide-5"><a href="#">Platba</a></li>
+			<li class="slide-6"><a href="#">Recenze</a></li>
 		</ul>
 	</div>
 </nav>
@@ -101,12 +100,41 @@
 			<span class="control next-slide"><i class="fas fa-chevron-right"></i></span>
 		</div>
 		<div id="content-wrap">
+
 			<div class="content_item content_item-1 row">
+				<div class="content_left col-xl-5 col-md-6">
+					<div><img src="images/Check-in-CZ.png" alt="Check-in/out"></div>
+				</div>
+				<div class="content_right col-xl-7 col-md-6">
+					<h3 class="slide slide-1 active">Check-in/out</h3>
+					<p>Nezdržujte se na recepci. Vaše osobní údaje zadáte Alfredovi a ten provede check-in za Vás. Můžete tak zamířit rovnou ke svému pokoji.</p>
+					<p>Rovněž svůj check-out z pokoje můžete jen oznámit Alfredovi a projít recepcí bez čekání.</p>
+					<div class="image-wrap">
+						<img class="desktop" src="images/checkin-icon.svg" alt="Check-in/out">
+						<img class="mobile" src="images/Check-in-device-CZ.png" alt="Check-in/out"></div>
+				</div>
+			</div>
+
+			<div class="content_item content_item-2 row">
+				<div class="content_left col-xl-5 col-md-6">
+					<div><img src="images/Key-CZ.png" alt="Zámkový systém"></div>
+				</div>
+				<div class="content_right col-xl-7 col-md-6">
+					<h3 class="slide slide-2">Otevřít dveře</h3>
+					<p>Ve vybraných ubytovacích zařízeních umí Alfred na Váš pokyn otevřít dveře. Stačí jedno kliknutí na mobil a jste v pohodlí svého pokoje. Zapomeňte na karty a klíče, máte přece Alfreda.</p>
+					<div class="image-wrap">
+						<img class="desktop" src="images/zamkovysystem-icon.svg" alt="Zámkový systém">
+						<img class="mobile" src="images/Key-device-CZ.png" alt="Zámkový systém">
+					</div>
+				</div>
+			</div>
+
+			<div class="content_item content_item-3 row">
 				<div class="content_left col-xl-5 col-md-6">
 					<div><img src="images/Activities-CZ.png" alt="Hotel a okolí"></div>
 				</div>
 				<div class="content_right col-xl-7 col-md-6">
-					<h3 class="slide slide-1 active">Hotel a okolí</h3>
+					<h3 class="slide slide-3">Hotel a okolí</h3>
 					<p>Do aplikace se jednoduše přihlásíte pomocí PIN, který obdržíte emailem s potvrzením rezervace.</p>
 					<p>Alfred pomáhá nejen s ubytováním, ale dá Vám i tipy na výlet v okolí. Od památek, restaurací, atrakcí a zajímavostí až po konkrétní výlety a kulturní akce.</p>
 					<div class="image-wrap">
@@ -116,12 +144,12 @@
 				</div>
 			</div>
 
-			<div class="content_item content_item-2 row">
+			<div class="content_item content_item-4 row">
 				<div class="content_left col-xl-5 col-md-6">
 					<div><img src="images/Service-CZ.png" alt="Doplňkové služby"></div>
 				</div>
 				<div class="content_right col-xl-7 col-md-6">
-					<h3 class="slide slide-2">Doplňkové služby</h3>
+					<h3 class="slide slide-4">Doplňkové služby</h3>
 					<p>Co takhle snídani na pokoj, masáž nebo zapůjčení kola. Hotelové služby si lze snadno objednat pomocí Alfreda v klidu Vašeho pokoje.</p>
 					<div class="image-wrap">
 						<img class="desktop" src="images/doplnkovesluzby-icon.svg" alt="Doplňkové služby">
@@ -130,26 +158,12 @@
 				</div>
 			</div>
 
-			<div class="content_item content_item-3 row">
-				<div class="content_left col-xl-5 col-md-6">
-					<div><img src="images/Check-in-CZ.png" alt="Check-in/out"></div>
-				</div>
-				<div class="content_right col-xl-7 col-md-6">
-					<h3 class="slide slide-3">Check-in/out</h3>
-					<p>Nezdržujte se na recepci. Vaše osobní údaje zadáte Alfredovi a ten provede check-in za Vás. Můžete tak zamířit rovnou ke svému pokoji.</p>
-					<p>Rovněž svůj check-out z pokoje můžete jen oznámit Alfredovi a projít recepcí bez čekání.</p>
-					<div class="image-wrap">
-						<img class="desktop" src="images/checkin-icon.svg" alt="Check-in/out">
-						<img class="mobile" src="images/Check-in-device-CZ.png" alt="Check-in/out"></div>
-				</div>
-			</div>
-
-			<div class="content_item content_item-4 row">
+			<div class="content_item content_item-5 row">
 				<div class="content_left col-xl-5 col-md-6">
 					<div><img src="images/Payment-CZ.png" alt="Platba"></div>
 				</div>
 				<div class="content_right col-xl-7 col-md-6">
-					<h3 class="slide slide-4">Platba</h3>
+					<h3 class="slide slide-5">Platba</h3>
 					<p>Za svůj pobyt a služby zaplatíte s pomocí Alfreda snadno. Na požádání Vám vystaví přehledný účet, který můžete přímo uhradit online.</p>
 					<div class="image-wrap">
 						<img class="desktop" src="images/platba-icon.svg" alt="Platba">
@@ -158,30 +172,16 @@
 				</div>
 			</div>
 
-			<div class="content_item content_item-5 row">
+			<div class="content_item content_item-6 row">
 				<div class="content_left col-xl-5 col-md-6">
 					<div><img src="images/Review-CZ.png" alt="Recenze"></div>
 				</div>
 				<div class="content_right col-xl-7 col-md-6">
-					<h3 class="slide slide-5">Recenze</h3>
+					<h3 class="slide slide-6">Recenze</h3>
 					<p>Vaše zpětná vazba je to nejcennější, co si Alfred může z Vašeho pobytu odnést. Proto Vás o ni na konci pobytu požádá. Bude rád za každý podnět nebo komentář. Jedině tak na sobě může on i celý hotel pracovat.</p>
 					<div class="image-wrap">
 						<img class="desktop" src="images/recenze-icon.svg" alt="Recenze">
 						<img class="mobile" src="images/Review-device-CZ.png" alt="Recenze">
-					</div>
-				</div>
-			</div>
-
-			<div class="content_item content_item-6 row">
-				<div class="content_left col-xl-5 col-md-6">
-					<div><img src="images/Key-CZ.png" alt="Zámkový systém"></div>
-				</div>
-				<div class="content_right col-xl-7 col-md-6">
-					<h3 class="slide slide-6">Zámkový systém</h3>
-					<p>Ve vybraných ubytovacích zařízeních umí Alfred na Váš pokyn otevřít dveře. Stačí jedno kliknutí na mobil a jste v pohodlí svého pokoje. Zapomeňte na karty a klíče, máte přece Alfreda.</p>
-					<div class="image-wrap">
-						<img class="desktop" src="images/zamkovysystem-icon.svg" alt="Zámkový systém">
-						<img class="mobile" src="images/Key-device-CZ.png" alt="Zámkový systém">
 					</div>
 				</div>
 			</div>
@@ -197,7 +197,7 @@
 		<div class="row align-c footer-row">
 			<div class="col-md-2 order-sm-1"></div>
 			<div class="col-md-3 col-lg-2 col-sm-4 col-6 order-2 order-sm-2">
-				<a class="button btn-bordered" href="https://www.previo.cz/mobilni-aplikace-myalfred" target="_blank">Jsem hotelier</a>
+				<a class="button btn-bordered" href="https://www.previo.cz/mobilni-aplikace-myalfred" target="_blank">Pro ubytovatele</a>
 				<p class="d-none d-sm-block">Nabídněte Alfreda svým hostům.</p>
 			</div>
 			<div class="col-md-1 col-lg-2 order-sm-3 d-sm-none d-lg-block"></div>
@@ -206,17 +206,16 @@
 				<ul class="footer_menu">
 					<li><a href="cookies.html">Cookies</a></li>
 					<li><a href="osobni-udaje.html">Osobní údaje</a></li>
-					<li><a href="https://www.previo.cz/obchodni-zastupci" target="_blank">Kontakt</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 col-sm-4 order-sm-5">
 				<h4 class="d-none d-sm-block">&nbsp;</h4>
 				<h4 class="d-sm-none"></h4>
-				<a class="button btn-bordered xs-full-width text-center" href="https://app.myalfred.cz" target="_blank">Vstoupit do aplikace</a>
+				<a class="button btn-bordered xs-full-width text-center" href="https://app.myalfred.cz" target="_blank">Spustit Alfreda</a>
 			</div>
 		</div>
 		<div class="copyright">
-			<p>2018 PREVIO s.r.o. Všechna práva vyhrazena. Web vytvořil <a href="https://netvor.co/" target="_blank"><strong>NETVOR</strong> <img src="images/netvor-logo.svg" alt="Netvor logo"></a></p>
+			<p>2020 PREVIO s.r.o. Všechna práva vyhrazena.</p>
 		</div>
 	</div>
 </footer>
@@ -224,26 +223,6 @@
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/lightslider.min.js"></script>
-<script src="js/jquery.smartbanner.js"></script>
 <script src="js/custom.js"></script>
-<script>
-    if ($(window).width() <= 575) {
-
-        // Google + iOS APP banner
-        var android = location.href.match(/#android$/) || navigator.userAgent.match(/Android/i) != null;
-        $.smartbanner({
-            title: 'My Alfred',
-            author: 'PREVIO s.r.o.',
-            icon: 'images/alfred-app.jpg',
-            button: 'Otevřít',
-            price: 'Zdarma', // Price of the app
-            inAppStore: 'Na App Store', // Text of price for iOS
-            inGooglePlay: 'Na Google Play', // Text of price for Android
-            force: android ? 'android' : 'ios',
-            daysHidden: 0,
-            daysReminder: 0,
-        });
-    }
-</script>
 </body>
 </html>	

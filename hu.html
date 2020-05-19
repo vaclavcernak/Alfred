@@ -2,10 +2,8 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="apple-itunes-app" content="app-id=1447093962">
-    <meta name="google-play-app" content="app-id=cz.previo.alfred">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800" rel="stylesheet">
@@ -67,10 +65,11 @@
 <section class="top" id="top">
     <div class="container">
         <div class="top_claim fadeInLeft animated">
-            <h1>Aplikáció a hotel vendégei részére</h1>
-            <p class="top_claim_text">Az Alfred szolgáltatásokat fog <span class="secondary">rendelni, </span><span class="secondary">tanácsokat ad</span> a szabadidő eltöltésére, <span class="secondary">megmutatja a szoba számlát </span> és fizethet vele.</p>
+            <h1>I'm Alfred,<br>I will make your stay more comfortable</h1>
+            <p class="top_claim_text">Through me you can save time with <span class="secondary">check-in</span>, book extra <span class="secondary">services</span>, get <span class="secondary">tips for trips</span>, see your <span class="secondary">hotel bill</span> and you can also <span class="secondary">pay</span> with me.</p>
         </div>
         <div class="top_download fadeInUp animated delay-1s">
+            <p>Már van foglalása?</p>
             <a class="button btn-bordered-dark" href="https://app.myalfred.cz" target="_blank">Belép Alfred</a>
         </div>
         <div class="top_note">
@@ -84,12 +83,12 @@
         <div class="mobile-fade-left"></div>
         <div class="mobile-fade-right"></div>
         <ul id="top_nav_menu">
-            <li class="active slide-1"><a href="#">A Hotel és környéke</a></li>
-            <li class="slide-2"><a href="#">Kiegészítő szolgáltatások</a></li>
-            <li class="slide-3"><a href="#">Check-in/out</a></li>
-            <li class="slide-4"><a href="#">Fizetés</a></li>
-            <li class="slide-5"><a href="#">Vélemény</a></li>
-            <li class="slide-6"><a href="#">Ajtózár kezelés</a></li>
+            <li class="slide-1 active"><a href="#">Check-in/out</a></li>
+            <li class="slide-2"><a href="#">Nyitott kapu</a></li>
+            <li class="slide-3"><a href="#">A Hotel és környéke</a></li>
+            <li class="slide-4"><a href="#">Kiegészítő szolgáltatások</a></li>
+            <li class="slide-5"><a href="#">Fizetés</a></li>
+            <li class="slide-6"><a href="#">Vélemény</a></li>
         </ul>
     </div>
 </nav>
@@ -100,12 +99,41 @@
             <span class="control next-slide"><i class="fas fa-chevron-right"></i></span>
         </div>
         <div id="content-wrap">
+
             <div class="content_item content_item-1 row">
+                <div class="content_left col-xl-5 col-md-6">
+                    <div><img src="images/Check-in-EN.png" alt="Check-in/out"></div>
+                </div>
+                <div class="content_right col-xl-7 col-md-6">
+                    <h3 class="slide slide-1 active">Check-in/out</h3>
+                    <p>Ne pazarolja az idejét a recepción. Adja meg személyes adatait Alfred-nek, és ő fog bejelentkezni. Egyenesen a szobájába mehet.</p>
+                    <p>Könnyedén kijelentkezhet Alfred-del és távozzon a recepcióról várakozás nélkül.</p>
+                    <div class="image-wrap">
+                        <img class="desktop" src="images/checkin-icon.svg" alt="Check-in/out">
+                        <img class="mobile" src="images/Check-in-device-EN.png" alt="Check-in/out"></div>
+                </div>
+            </div>
+
+            <div class="content_item content_item-2 row">
+                <div class="content_left col-xl-5 col-md-6">
+                    <div><img src="images/Key-EN.png" alt="Ajtózár kezelés"></div>
+                </div>
+                <div class="content_right col-xl-7 col-md-6">
+                    <h3 class="slide slide-2">Nyitott kapu</h3>
+                    <p>Alfred megnyitja az ajtót a kiválasztott szálláshelyeken. Csak egy kattintás a telefonodon és már a szobád kényelmét élvezheted. Felejtsd el a kártyákat és kulcsokat, itt van Alfred.</p>
+                    <div class="image-wrap">
+                        <img class="desktop" src="images/zamkovysystem-icon.svg" alt="Ajtózár kezelés">
+                        <img class="mobile" src="images/Key-device-EN.png" alt="Ajtózár kezelés">
+                    </div>
+                </div>
+            </div>
+
+            <div class="content_item content_item-3 row">
                 <div class="content_left col-xl-5 col-md-6">
                     <div><img src="images/Activities-EN.png" alt="A Hotel és környéke"></div>
                 </div>
                 <div class="content_right col-xl-7 col-md-6">
-                    <h3 class="slide slide-1 active">A Hotel és környéke</h3>
+                    <h3 class="slide slide-3">A Hotel és környéke</h3>
                     <p>Egyszerűen jelentkezzen be az alkalmazásba a visszaigazoló e-mailben kapott PIN-kóddal.</p>
                     <p>Alfred nem csak a szállással kapcsolatos dolgokban segíti, hanem tippeket is kínál a szabadidő eltöltéséhez. A műemlékektől, éttermektől, látnivalóktól a különleges- és kulturális eseményekig.</p>
                     <div class="image-wrap">
@@ -115,12 +143,12 @@
                 </div>
             </div>
 
-            <div class="content_item content_item-2 row">
+            <div class="content_item content_item-4 row">
                 <div class="content_left col-xl-5 col-md-6">
                     <div><img src="images/Service-EN.png" alt="Kiegészítő szolgáltatások"></div>
                 </div>
                 <div class="content_right col-xl-7 col-md-6">
-                    <h3 class="slide slide-2">Kiegészítő szolgáltatások</h3>
+                    <h3 class="slide slide-4">Kiegészítő szolgáltatások</h3>
                     <p>Mit gondol a reggeliről a szobában, masszázsról vagy kerékpár kölcsönzésről ? A szálloda szolgáltatásait Alfred könnyen lefoglalja bárhonnan.</p>
                     <div class="image-wrap">
                         <img class="desktop" src="images/doplnkovesluzby-icon.svg" alt="Kiegészítő szolgáltatások">
@@ -129,26 +157,12 @@
                 </div>
             </div>
 
-            <div class="content_item content_item-3 row">
-                <div class="content_left col-xl-5 col-md-6">
-                    <div><img src="images/Check-in-EN.png" alt="Check-in/out"></div>
-                </div>
-                <div class="content_right col-xl-7 col-md-6">
-                    <h3 class="slide slide-3">Check-in/out</h3>
-                    <p>Ne pazarolja az idejét a recepción. Adja meg személyes adatait Alfred-nek, és ő fog bejelentkezni. Egyenesen a szobájába mehet.</p>
-                    <p>Könnyedén kijelentkezhet Alfred-del és távozzon a recepcióról várakozás nélkül.</p>
-                    <div class="image-wrap">
-                        <img class="desktop" src="images/checkin-icon.svg" alt="Check-in/out">
-                        <img class="mobile" src="images/Check-in-device-EN.png" alt="Check-in/out"></div>
-                </div>
-            </div>
-
-            <div class="content_item content_item-4 row">
+            <div class="content_item content_item-5 row">
                 <div class="content_left col-xl-5 col-md-6">
                     <div><img src="images/Payment-EN.png" alt="Fizetés"></div>
                 </div>
                 <div class="content_right col-xl-7 col-md-6">
-                    <h3 class="slide slide-4">Fizetés</h3>
+                    <h3 class="slide slide-5">Fizetés</h3>
                     <p>Alfred segítségével könnyedén kifizetheti foglalását és az igénybe vett szolgáltatásait. Igény esetén számlát ad, melyet online ki is fizethet.</p>
                     <div class="image-wrap">
                         <img class="desktop" src="images/platba-icon.svg" alt="Fizetés">
@@ -157,30 +171,16 @@
                 </div>
             </div>
 
-            <div class="content_item content_item-5 row">
+            <div class="content_item content_item-6 row">
                 <div class="content_left col-xl-5 col-md-6">
                     <div><img src="images/Review-EN.png" alt="Vélemény"></div>
                 </div>
                 <div class="content_right col-xl-7 col-md-6">
-                    <h3 class="slide slide-5">Vélemény</h3>
+                    <h3 class="slide slide-6">Vélemény</h3>
                     <p>Az Ön visszajelzése a legértékesebb dolog, amit Alfred kaphat a tartózkodásáról. Az üdülés végén egyszerűen írhat véleményt az alkalmazásban. Minden javaslat vagy kommentár elengedhetetlen számunkra, mert csak így tovább javulhat a szálloda.</p>
                     <div class="image-wrap">
                         <img class="desktop" src="images/recenze-icon.svg" alt="Vélemény">
                         <img class="mobile" src="images/Review-device-EN.png" alt="Vélemény">
-                    </div>
-                </div>
-            </div>
-
-            <div class="content_item content_item-6 row">
-                <div class="content_left col-xl-5 col-md-6">
-                    <div><img src="images/Key-EN.png" alt="Ajtózár kezelés"></div>
-                </div>
-                <div class="content_right col-xl-7 col-md-6">
-                    <h3 class="slide slide-6">Ajtózár kezelés</h3>
-                    <p>Alfred megnyitja az ajtót a kiválasztott szálláshelyeken. Csak egy kattintás a telefonodon és már a szobád kényelmét élvezheted. Felejtsd el a kártyákat és kulcsokat, itt van Alfred.</p>
-                    <div class="image-wrap">
-                        <img class="desktop" src="images/zamkovysystem-icon.svg" alt="Ajtózár kezelés">
-                        <img class="mobile" src="images/Key-device-EN.png" alt="Ajtózár kezelés">
                     </div>
                 </div>
             </div>
@@ -205,7 +205,6 @@
                 <ul class="footer_menu">
                     <li><a href="cookies-hu.html">Cookies</a></li>
                     <li><a href="personal-data-hu.html">Személyes adatok</a></li>
-                    <li><a href="https://www.hotelgram.hu/kapcsolat" target="_blank">Kapcsolat</a></li>
                 </ul>
             </div>
             <div class="col-md-4 col-sm-4 order-sm-5">
@@ -215,33 +214,13 @@
             </div>
         </div>
         <div class="copyright">
-            <p>2019 PREVIO s.r.o. Minden jog fenntartva. Web létrehozva <a href="https://netvor.co/" target="_blank"><strong>NETVOR</strong> <img src="images/netvor-logo.svg" alt="Netvor logo"></a></p>
+            <p>2020 PREVIO s.r.o. Minden jog fenntartva.</p>
         </div>
     </div>
 </footer>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/lightslider.min.js"></script>
-<script src="js/jquery.smartbanner.js"></script>
 <script src="js/custom.js"></script>
-<script>
-    if ($(window).width() <= 575) {
-
-        // Google + iOS APP banner
-        var android = location.href.match(/#android$/) || navigator.userAgent.match(/Android/i) != null;
-        $.smartbanner({
-            title: 'My Alfred',
-            author: 'PREVIO s.r.o.',
-            icon: 'images/alfred-app.jpg',
-            button: 'Open',
-            price: 'Free', // Price of the app
-            inAppStore: 'On App Store', // Text of price for iOS
-            inGooglePlay: 'On Google Play', // Text of price for Android
-            force: android ? 'android' : 'ios',
-            daysHidden: 0,
-            daysReminder: 0,
-        });
-    }
-</script>
 </body>
 </html>
