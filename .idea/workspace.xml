@@ -5,28 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/js/custom.js" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb606ac9-bf5a-443e-a7f0-2f80e2fdbc74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cookies-de.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies-de.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookies-en.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies-en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookies-hu.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies-hu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookies-pl.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies-pl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookies.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/de.html" beforeDir="false" afterPath="$PROJECT_DIR$/de.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en.html" beforeDir="false" afterPath="$PROJECT_DIR$/en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hu.html" beforeDir="false" afterPath="$PROJECT_DIR$/hu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/alfred-logo-footer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/alfred-logo-footer.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/myAlfred-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/myAlfred-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/osobni-udaje.html" beforeDir="false" afterPath="$PROJECT_DIR$/osobni-udaje.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-data-de.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal-data-de.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-data-hu.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal-data-hu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-data-pl.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal-data-pl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-data.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal-data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pl.html" beforeDir="false" afterPath="$PROJECT_DIR$/pl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/styles.scss" afterDir="false" />
-    </list>
+    <list default="true" id="eb606ac9-bf5a-443e-a7f0-2f80e2fdbc74" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +83,7 @@
     <session id="-1752148586">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="5" />
@@ -386,11 +365,11 @@
       <path value="$PROJECT_DIR$/node_modules/compass/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2000" />
+    <option name="y" value="58" />
+    <option name="width" value="1741" />
+    <option name="height" value="1009" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -531,16 +510,15 @@
       <workItem from="1588838228322" duration="594000" />
       <workItem from="1589370880063" duration="2585000" />
       <workItem from="1589789545932" duration="1308000" />
-      <workItem from="1589869295580" duration="12438000" />
+      <workItem from="1589869295580" duration="12986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337768000" />
+    <option name="totallyTimeSpent" value="338316000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22761194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
