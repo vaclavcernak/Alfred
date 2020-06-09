@@ -189,6 +189,10 @@ img {
   background-image: url("../images/Homepage-CZ.png");
 }
 
+.sk .top {
+  background-image: url("../images/Homepage-SK.png");
+}
+
 .en .top,
 .pl .top,
 .hu .top,
@@ -972,12 +976,19 @@ img {
       }
     }
   }
+  li.sk{
+    a {
+      &:before {
+        background-image: url("../images/lang-sk.png");
+      }
+    }
+  }
   &:hover {
-    max-height: 200px;
+    max-height: 220px;
   }
 }
 #language.langdrop {
-  max-height: 200px !important;
+  max-height: 220px !important;
 }
 
 
