@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     // CONTENT SLIDER
     var menu = ("#top_nav_menu");
-    var menu_cz = (".cz #top_nav_menu");
+    var menu_cz = (".cz #top_nav_menu, .sk #top_nav_menu");
     var menu_en = (".en #top_nav_menu");
     var menu_pl = (".pl #top_nav_menu");
     var menu_hu = (".hu #top_nav_menu");
@@ -265,3 +265,30 @@ $(function() {
     });
 
 });
+
+
+// LIGHTBOX VIDEO
+window.document.onkeydown = function(e) {
+    if (!e) {
+        e = event;
+    }
+    if (e.keyCode == 27) {
+        lightbox_close();
+    }
+}
+
+function lightbox_open() {
+    var lightBoxVideo = document.getElementById("PrevioVideo");
+    var video = document.getElementById("VideoLightbox");
+    $(video).find('#light').show();
+    $(video).find('#fade').show();
+    lightBoxVideo.play();
+}
+
+function lightbox_close() {
+    var lightBoxVideo = document.getElementById("PrevioVideo");
+    var video = document.getElementById("VideoLightbox");
+    $(video).find('#light').hide();
+    $(video).find('#fade').hide();
+    lightBoxVideo.pause();
+}

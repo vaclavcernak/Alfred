@@ -38,7 +38,7 @@
 <header class="header">
     <div class="container">
         <div class="logo">
-            <a href="https://www.myalfred.pl"><img src="images/myAlfred-logo.svg" alt="Alfred logo"></a>
+            <a href="https://www.myalfred.pl"><img class="mr-15" src="images/ico-alfred-avatar-head.png" alt="Alfred avatar"><img src="images/myAlfred-logo.svg" alt="Alfred logo"></a>
         </div>
         <div class="logo-mobile">
             <a href="https://www.myalfred.pl"><img src="images/myAlfred-logo-white.svg" alt="Alfred logo"></a>
@@ -74,6 +74,29 @@
             <p class="top_claim_text">Z moją pomocą zaoszczędzisz czas związany z <span class="secondary">check-inem</span>, możesz też zarezerwować dodatkowe <span class="secondary">usługi</span>, i uzyskać <span class="secondary">porady dotyczące lokalnych atrakcji</span>. Ze mną opłacisz swoją <span class="secondary">rezerwację</span>, a dzięki podglądowi rachunku łatwo skontrolujesz <span class="secondary">wydatki</span> podczas pobytu.</p>
             <a class="d-sm-none button btn-bordered xs-full-width text-center" href="https://app.myalfred.cz" target="_blank">Otwórz Alfreda</a>
         </div>
+
+        <section id="Video" class="mt-30">
+            <div id="VideoLightbox" class="video-lightbox">
+                <div class="video-img-placeholder">
+                    <a class="video-play" href="#" onclick="lightbox_open();">
+                        <img src="https://www.previo.cz/images/page-mobileApplication/previews/alfred/alfred-video-pl.jpg" alt="Alfred video">
+                        <i class="fa fa-play-circle no-border" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="video-player">
+                    <div id="light" class="lightVideo" style="display: none;">
+                        <div class="video-source">
+                            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+                            <video id="PrevioVideo" width="800" controls="">
+                                <source src="https://files.previo.cz/1/www/Alfred_Final_video_PL.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div id="fade" class="fadeVideo" onclick="lightbox_close();" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+
         <div class="top_download fadeInUp animated delay-1s">
             <p>Masz już rezerwację?</p>
             <a class="button btn-bordered-dark" href="https://app.myalfred.cz" target="_blank">Otwórz Alfreda</a>
